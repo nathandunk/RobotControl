@@ -1,35 +1,35 @@
 #include "Arduino.h"
-#include "Robot/Actuator.hpp"
-#include "Robot/Robot.hpp"
-#include "Control/PD_Controller.hpp"
-#include "Control/Filter.hpp"
-#include "Utility/Timer.hpp"
+#include "RobotLib/Robot/Actuator.hpp"
+#include "RobotLib/Robot/Robot.hpp"
+#include "RobotLib/Control/PD_Controller.hpp"
+#include "RobotLib/Control/Filter.hpp"
+#include "RobotLib/Utility/Timer.hpp"
 
 const int n_joints = 2;
 
 // Actuator variables
 Actuator *actuators[n_joints];
-int actuator_ens[] = {1, 2};
-int fault_pins[] = {1,2};
+int actuator_ens[] = {5, 4};
+int fault_pins[] = {6,12};
 int fault_levels[] = {0, 0};
-float motor_kts[] = {1.0, 1.0};
+float motor_kts[] = {0.6/2.1, 0.6/2.1};
 float max_torques[] = {1.0, 1.0};
 float v_a_ratio[] = {1.0, 1.0};
-int analog_out_pins[] = {1, 2};
+int analog_out_pins[] = {9, 10};
 bool flip_dirs[] = {false, false};
 
 // PositionSensor variables
 PositionSensor *positionsensors[n_joints];
-int encoder_pins[n_joints][2] = {{1,2},{3,4}};
-float encoder_cprs[n_joints] = {2248.86, 2248.86};
+int encoder_pins[n_joints][2] = {{2,3},{18,19}};
+float encoder_cprs[n_joints] = {2248.8576, 2248.8576};
 
 // Joint variables
 Joint *joints[n_joints];
 
 // PD Controller Variables
 PD_Controller *pd_controllers[n_joints];
-float p_vals[] = {8.0,  8.0};
-float d_vals[] = {0.01, 0.01};
+float p_vals[] = {0.01,  0.01};
+float d_vals[] = {0.001, 0.001};
 float pd_flip_dir[] = {false, false};
 
 float ref[n_joints] = {0.0, 0.0};

@@ -1,5 +1,5 @@
-#include "Robot/Robot.hpp"
-#include "Robot/Joint.hpp"
+#include "RobotLib/Robot/Robot.hpp"
+#include "RobotLib/Robot/Joint.hpp"
 
 Robot::Robot(Joint* joints_[], int num_joints_):
     num_joints(num_joints_)

@@ -10,7 +10,7 @@ public:
         low,
         high
     };
-    Actuator(int actuator_en_, int fault_pin_, float motor_kt_, float max_torque_, float v_a_ratio_, int analog_out_pin_, int fault_level_, bool flip_dir_);
+    Actuator(int actuator_en_, int fault_pin_, int dir_pin_, float motor_kt_, float max_torque_, float v_a_ratio_, int analog_out_pin_, int fault_level_, bool flip_dir_);
 
     ~Actuator();
 
@@ -36,6 +36,7 @@ private:
     int fault_pin;
     int fault_level;
     bool flip_dir;
+    int dir_pin;
 };
 
 #endif

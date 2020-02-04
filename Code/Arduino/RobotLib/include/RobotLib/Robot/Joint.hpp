@@ -4,8 +4,8 @@
 
 #include "Encoder.h"
 #include "DualTB9051FTGMotorShield.h"
-#include "Robot/PositionSensor.hpp"
-#include "Robot/Actuator.hpp"
+#include "RobotLib/Robot/PositionSensor.hpp"
+#include "RobotLib/Robot/Actuator.hpp"
 
 // library interface description
 class Joint

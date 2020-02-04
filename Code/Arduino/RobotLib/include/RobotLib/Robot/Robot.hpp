@@ -2,7 +2,7 @@
 #define Robot_h
 
 #include "Arduino.h"
-#include "Robot/Joint.hpp"
+#include "RobotLib/Robot/Joint.hpp"
 
 class Robot
 {

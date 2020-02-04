@@ -1,9 +1,9 @@
 #include "Encoder.h"
 #include "DualTB9051FTGMotorShield.h"
-#include "Control/PD_Controller.hpp"
-#include "Robot/Joint.hpp"
-#include "Control/Filter.hpp"
-#include "Robot/Actuator.hpp"
+#include "RobotLib/Control/PD_Controller.hpp"
+#include "RobotLib/Robot/Joint.hpp"
+#include "RobotLib/Control/Filter.hpp"
+#include "RobotLib/Robot/Actuator.hpp"
 
 // Constructor /////////////////////////////////////////////////////////////////
 // Function that handles the creation and setup of instances

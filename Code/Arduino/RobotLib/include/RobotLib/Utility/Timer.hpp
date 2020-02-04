@@ -1,3 +1,6 @@
+#ifndef Timer_h
+#define Timer_h
+
 class Timer
 {
 private:
@@ -16,3 +19,5 @@ public:
 };
 
 // TODO ADD HERTZ, MILLISECONDS, SECONDS, etc option
+
+#endif
