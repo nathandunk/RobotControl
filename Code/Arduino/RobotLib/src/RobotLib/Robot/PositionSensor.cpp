@@ -1,7 +1,7 @@
 #include "RobotLib/Robot/PositionSensor.hpp"
 #include "Encoder.h"
 
-PositionSensor::PositionSensor(int encoder_pins[], float encoder_cpr_):
+PositionSensor::PositionSensor(unsigned char encoder_pins[], float encoder_cpr_):
     encoder_a(encoder_pins[0]),
     encoder_b(encoder_pins[1]),
     encoder_cpr(encoder_cpr_),

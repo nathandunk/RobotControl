@@ -7,7 +7,7 @@
 class Robot
 {
     public:
-        Robot(Joint* joints_[], int num_joints_);
+        Robot(Joint joints_[], int num_joints_, Print &printer_);
         ~Robot();
 
         void update_joints();
@@ -26,13 +26,16 @@ class Robot
 
         void set_torques(float command_torques_[]);
 
+        void enable();
+
         void disable();
     private:
-        Joint* joints[];
+        Joint joints[];
         int num_joints;
         float positions[];
         float velocities[];
         float torques[];
+        Print *printer;
 };
 
 #endif

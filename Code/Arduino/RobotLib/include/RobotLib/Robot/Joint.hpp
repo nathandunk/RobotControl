@@ -12,7 +12,7 @@ class Joint
 {
   // user-accessible "public" interface
   public:
-    Joint(PositionSensor* position_sensor_, Actuator* actuator_);
+    Joint(PositionSensor &position_sensor_, Actuator &actuator_, Print &printer_);
 
     void enable();
 
@@ -30,12 +30,11 @@ class Joint
 
   // library-accessible "private" interface
   private:
-    int motor_en;
+    PositionSensor position_sensor;
+    Actuator actuator;
     double position;
     double velocity;
-
-    PositionSensor* position_sensor;
-    Actuator* actuator;
+    Print *printer;
 };
 
 #endif

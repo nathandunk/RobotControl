@@ -7,7 +7,7 @@
 class PositionSensor{
     
     public:
-        PositionSensor(int encoder_pins[], float encoder_cpr_);
+        PositionSensor(unsigned char encoder_pins[], float encoder_cpr_);
 
         void update();
         
@@ -21,8 +21,8 @@ class PositionSensor{
 
         bool get_faults();
     private:
-        int encoder_a;
-        int encoder_b; 
+        unsigned char encoder_a;
+        unsigned char encoder_b; 
         float encoder_cpr;
         float position;
         float last_position;
