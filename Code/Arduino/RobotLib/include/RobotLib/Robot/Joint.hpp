@@ -14,6 +14,8 @@ class Joint
   public:
     Joint(PositionSensor &position_sensor_, Actuator &actuator_, Print &printer_);
 
+    Joint() = default;
+
     void enable();
 
     void disable();
@@ -27,11 +29,13 @@ class Joint
     void update_pos_vel();
 
     bool get_fault();
+    
+    void print_test();
 
   // library-accessible "private" interface
   private:
-    PositionSensor position_sensor;
-    Actuator actuator;
+    PositionSensor* position_sensor;
+    Actuator* actuator;
     double position;
     double velocity;
     Print *printer;

@@ -7,7 +7,7 @@
 class PositionSensor{
     
     public:
-        PositionSensor(unsigned char encoder_pins[], float encoder_cpr_);
+        PositionSensor(unsigned char encoder_pins[], float encoder_cpr_, Print &printer_);
 
         void update();
         
@@ -27,9 +27,10 @@ class PositionSensor{
         float position;
         float last_position;
         float velocity;
-        int last_time;
+        unsigned long int last_time;
         Encoder encoder;
         FilterBuLp2 filter;
+        Print *printer;
 };
 
 #endif

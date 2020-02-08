@@ -1,11 +1,17 @@
 #include "RobotLib/Robot/Robot.hpp"
 #include "RobotLib/Robot/Joint.hpp"
 
-Robot::Robot(Joint joints_[], int num_joints_, Print &printer_):
-    num_joints(num_joints_),
-    printer(&printer_)
+Robot::Robot(Joint* joints_, int size, Print &printer_):
+    num_joints(size),
+    printer(&printer_),
+    joints(joints_)
     {
-        for (auto i = 0; i < num_joints; i++){
+        joints = new Joint[size];
+        positions = new float[size];
+        velocities = new float[size];
+        torques = new float[size];
+
+        for (auto i = 0; i < size; i++){
             joints[i] = joints_[i];
             positions[i] = 0.0;
             velocities[i] = 0.0;
@@ -15,6 +21,7 @@ Robot::Robot(Joint joints_[], int num_joints_, Print &printer_):
 
 Robot::~Robot()
 {
+    delete[] joints;
 }
 
 void Robot::update_joints(){
@@ -39,7 +46,7 @@ float Robot::get_position(int joint_ind_){
     }
     else{
         if(Serial){
-            printer->println("joint index out of bounds, providing 0 position");
+            // printer->println("joint index out of bounds, providing 0 position");
         }
         return 0.0;
     }
@@ -51,7 +58,7 @@ float Robot::get_velocity(int joint_ind_){
     }
     else{
         if(Serial){
-            printer->println("joint index out of bounds, providing 0 velocity");
+            // printer->println("joint index out of bounds, providing 0 velocity");
         }
         return 0.0;
     }
@@ -72,9 +79,9 @@ void Robot::enable(){
     for (auto i = 0; i < num_joints; i++){
         joints[i].enable();
     }
-    if(Serial){
-        printer->println("Robot enabled");
-    }
+    // if(Serial){
+    //     printer->println("Robot enabled");
+    // }
 }
 
 void Robot::disable(){
