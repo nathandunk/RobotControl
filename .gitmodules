@@ -1,0 +1,4 @@
+[submodule "Code/ControlGUI/--force"]
+	path = Code/ControlGUI/--force
+	url = https://github.com/mahilab/mahi-gui.git
+	branch = master
