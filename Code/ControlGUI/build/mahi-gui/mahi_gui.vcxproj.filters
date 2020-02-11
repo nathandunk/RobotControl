@@ -16,6 +16,9 @@
     <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Svg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\imgui_custom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -44,9 +47,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoMonoItalic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_demo.cpp">
@@ -117,6 +117,9 @@
     <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Sequence.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Svg.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\System.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -130,12 +133,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\imgui_custom.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include\glad\glad.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include\KHR\khrplatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imconfig.h">

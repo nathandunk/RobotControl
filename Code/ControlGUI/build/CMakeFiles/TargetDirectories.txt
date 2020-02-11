@@ -13,8 +13,13 @@ C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw/CMakeFiles/INST
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw/CMakeFiles/ALL_BUILD.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw/src/CMakeFiles/glfw.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw/src/CMakeFiles/INSTALL.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glad/CMakeFiles/glad.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glad/CMakeFiles/INSTALL.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nativefiledialog/CMakeFiles/nativefiledialog.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nativefiledialog/CMakeFiles/INSTALL.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nanovg/CMakeFiles/nanovg.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nanovg/CMakeFiles/INSTALL.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nanovg/CMakeFiles/nanovg-demo.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/demo.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/drawing.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/INSTALL.dir
@@ -22,4 +27,5 @@ C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/likert.di
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/files.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/plots.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/events.dir
+C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/msd.dir
 C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/CMakeFiles/coroutines.dir

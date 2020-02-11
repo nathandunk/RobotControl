@@ -36,7 +36,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/src/mahi/cmake_install.cmake")
   include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw/cmake_install.cmake")
+  include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glad/cmake_install.cmake")
   include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nativefiledialog/cmake_install.cmake")
+  include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/nanovg/cmake_install.cmake")
   include("C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/examples/cmake_install.cmake")
 
 endif()

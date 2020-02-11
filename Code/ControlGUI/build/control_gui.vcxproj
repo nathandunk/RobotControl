@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -98,15 +98,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>mahi-gui\Debug\mahi_gui-d.lib;mahi-gui\3rdparty\glfw\src\Debug\glfw3.lib;mahi-gui\3rdparty\nativefiledialog\Debug\nativefiledialog.lib;comctl32.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>mahi-gui\Debug\mahi_gui-d.lib;mahi-gui\3rdparty\glfw\src\Debug\glfw3.lib;mahi-gui\3rdparty\glad\Debug\glad.lib;mahi-gui\3rdparty\nativefiledialog\Debug\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\Debug\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -142,17 +142,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,7 +160,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>mahi-gui\Release\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\Release\glfw3.lib;mahi-gui\3rdparty\nativefiledialog\Release\nativefiledialog.lib;comctl32.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>mahi-gui\Release\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\Release\glfw3.lib;mahi-gui\3rdparty\glad\Release\glad.lib;mahi-gui\3rdparty\nativefiledialog\Release\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\Release\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -175,7 +175,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -188,17 +188,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,7 +206,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>mahi-gui\MinSizeRel\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\MinSizeRel\glfw3.lib;mahi-gui\3rdparty\nativefiledialog\MinSizeRel\nativefiledialog.lib;comctl32.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>mahi-gui\MinSizeRel\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\MinSizeRel\glfw3.lib;mahi-gui\3rdparty\glad\MinSizeRel\glad.lib;mahi-gui\3rdparty\nativefiledialog\MinSizeRel\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\MinSizeRel\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -235,15 +235,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,7 +251,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>mahi-gui\RelWithDebInfo\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;mahi-gui\3rdparty\nativefiledialog\RelWithDebInfo\nativefiledialog.lib;comctl32.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>mahi-gui\RelWithDebInfo\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;mahi-gui\3rdparty\glad\RelWithDebInfo\glad.lib;mahi-gui\3rdparty\nativefiledialog\RelWithDebInfo\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\RelWithDebInfo\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -330,6 +330,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\glad\glad.vcxproj">
+      <Project>{ECCACB36-AB41-3C23-9F38-7B1A685D8EC6}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\glfw\src\glfw.vcxproj">
       <Project>{CC38DBE5-A4CC-3A36-9977-8A3A106040C6}</Project>
       <Name>glfw</Name>
@@ -339,6 +345,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\mahi_gui.vcxproj">
       <Project>{514FDF99-16FE-3445-A09D-435B733740D1}</Project>
       <Name>mahi_gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\nanovg\nanovg.vcxproj">
+      <Project>{0DB198FD-F9B5-32BC-A403-BFEC53A4AA10}</Project>
+      <Name>nanovg</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

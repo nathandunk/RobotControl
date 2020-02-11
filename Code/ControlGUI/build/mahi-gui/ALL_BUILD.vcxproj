@@ -196,6 +196,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\glad\glad.vcxproj">
+      <Project>{ECCACB36-AB41-3C23-9F38-7B1A685D8EC6}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\glfw\src\glfw.vcxproj">
       <Project>{CC38DBE5-A4CC-3A36-9977-8A3A106040C6}</Project>
       <Name>glfw</Name>
@@ -211,6 +217,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\mahi_gui.vcxproj">
       <Project>{514FDF99-16FE-3445-A09D-435B733740D1}</Project>
       <Name>mahi_gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\examples\msd.vcxproj">
+      <Project>{971ECCDC-7BEE-31B1-8881-D65D7E4916FF}</Project>
+      <Name>msd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\nanovg\nanovg.vcxproj">
+      <Project>{0DB198FD-F9B5-32BC-A403-BFEC53A4AA10}</Project>
+      <Name>nanovg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build\mahi-gui\3rdparty\nanovg\nanovg-demo.vcxproj">
+      <Project>{B477E1D1-23A5-3743-9AC9-D2CE51190F92}</Project>
+      <Name>nanovg-demo</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
