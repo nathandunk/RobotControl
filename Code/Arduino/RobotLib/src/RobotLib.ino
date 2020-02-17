@@ -4,20 +4,22 @@
 #include "RobotLib/Control/PD_Controller.hpp"
 #include "RobotLib/Control/Filter.hpp"
 #include "RobotLib/Utility/Timer.hpp"
-#include "Plotter.h"
+// #include "Plotter.h"
+
+char buff[6];
 
 const int n_joints = 2;
 
 // // Actuator variables
 // // Actuator *actuators[n_joints];
-unsigned char actuator_ens[]    = {5, 4};
-unsigned char current_pins[]    = {A0, A1};
-unsigned char fault_pins[]      = {6, 12};
-unsigned char dir_pins[]        = {7, 8};
+unsigned char actuator_ens[]    = {4, 5};
+unsigned char current_pins[]    = {A1, A0};
+unsigned char fault_pins[]      = {12, 6};
+unsigned char dir_pins[]        = {8, 7};
 float         motor_kts[]       = {0.6/2.1, 0.6/2.1};
 float         max_torques[]     = {1.0, 1.0};
 float         v_a_ratio[]       = {1.0, 1.0};
-unsigned char analog_out_pins[] = {9, 10};
+unsigned char analog_out_pins[] = {10, 9};
 int           fault_levels[]    = {0, 0};
 bool          flip_dirs[]       = {false, false};
 
@@ -33,7 +35,7 @@ float         encoder_cprs[n_joints]    = {2248.8576, 2248.8576};
 // // PD_Controller *pd_controllers[n_joints];
 float p_vals[]      = {0.01, 0.01};
 float d_vals[]      = {0.002, 0.002};
-float pd_flip_dir[] = {true, false};
+float pd_flip_dir[] = {true, true};
 
 float ref[n_joints]             = {0.0, 0.0};
 float command_torques[n_joints] = {0.0, 0.0};
@@ -58,7 +60,7 @@ PD_Controller pd_controllers[] = {PD_Controller(p_vals[0],d_vals[0],pd_flip_dir[
 Robot robot(joints, n_joints, Serial);
 
 double pos;
-Plotter p;
+// Plotter p;
 
 void setup(){
 
@@ -104,23 +106,19 @@ void setup(){
 
 void loop(){
     while(!stop){
+        if(Serial.available() != 0){
+            Serial.readBytes(buff,6); // read the input
+            ref[0] = (buff[0]-'0')*100+(buff[1]-'0')*10+(buff[2]-'0');
+            ref[1] = (buff[3]-'0')*100+(buff[4]-'0')*10+(buff[5]-'0');
+        }
+
         robot.update_joints();
-        ref[0] = 70*sin(0.2*2*PI*current_time);
-        ref[1] = 70*sin(0.2*2*PI*current_time);
 
         for (size_t i = 0; i < n_joints; i++){
-            command_torques[i] = -1.0*pd_controllers[i].CalcTorque(robot.get_position(i),robot.get_velocity(i),ref[i],0.0);
+            command_torques[i] = 1.0*pd_controllers[i].CalcTorque(robot.get_position(i),robot.get_velocity(i),ref[i],0.0);
         }
 
         robot.set_torques(command_torques);
-
-        // Serial.print(robot.get_position(0));
-        // Serial.print(", ");
-        // Serial.print(ref[0]);
-        // Serial.print(", ");
-        // Serial.print(command_torques[0]);
-        // Serial.print(", ");
-        // Serial.println(robot.get_velocity(0));
 
         current_time = timer.wait();      
     }

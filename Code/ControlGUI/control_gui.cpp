@@ -5,6 +5,8 @@
 #include <thread>
 #include <mutex>
 #include <string>
+#include <codecvt>
+#include <locale>
 
 using namespace mahi::gui;
 
@@ -50,20 +52,17 @@ public:
     }
 
     void begin_serial(){
-        // std::wstring com_prefix = _T("COM");
-        // std::wstring comport_string = std::to_wstring(comport_num);
+        std::wstring com_prefix = L"\\\\.\\COM";
+        std::wstring com_suffix = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(std::to_string(comport_num));
+        std::wstring comID = com_prefix + com_suffix;
 
-
-        // std::wstring stemp = std::wstring(comport_string.begin(), comport_string.end());
-        // LPWSTR comport_lpcwstr = &stemp[0];
-
-        hSerial = CreateFile(_T("COM8"),
-                            GENERIC_READ | GENERIC_WRITE,
-                            0,
-                            0,
-                            OPEN_EXISTING,
-                            FILE_ATTRIBUTE_NORMAL,
-                            0);
+        hSerial = CreateFileW(comID.c_str(),
+                              GENERIC_READ | GENERIC_WRITE,
+                              0,
+                              0,
+                              OPEN_EXISTING,
+                              FILE_ATTRIBUTE_NORMAL,
+                              0);
 
         DCB dcbSerialParams = {0};
         dcbSerialParams.DCBlength=sizeof(dcbSerialParams);
