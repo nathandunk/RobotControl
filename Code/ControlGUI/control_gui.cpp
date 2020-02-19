@@ -35,7 +35,7 @@ public:
         ImGui::InputInt("Number of Joints:", &num_joints);
         if(num_joints > 0){
             for (size_t i = 0; i < num_joints; i++){
-                ImGui::DragInt(("Angle " + std::to_string(i)).c_str(),&angles[i],1,0,100);
+                ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-180,180);
             }
         }
         ImGui::InputInt("Comport number:", &comport_num);
@@ -102,15 +102,14 @@ public:
 
         // std::string final_string = std::string( 3-angle_string.length(), '0').append(angle_string);
 
-        char * buff;
-        buff = new char[3*num_joints];
+        char *buff = (char *)&angles[0];
         
-        strcpy(buff,final_string.c_str());
+        //strcpy(buff,final_string.c_str());
 
-        std::cout << buff << std::endl;
-        std::cout <<sizeof(buff)/sizeof(*buff) << std::endl;
+        //std::cout << buff << std::endl;
+        //std::cout <<sizeof(buff)/sizeof(*buff) << std::endl;
         DWORD dwBytesRead = 0;
-        if(!WriteFile(hSerial, buff, 3*num_joints, &dwBytesRead, NULL)){
+        if(!WriteFile(hSerial, buff, sizeof(angles[0])*angles.size(), &dwBytesRead, NULL)){
             std::cout << "error writing to serial" << std::endl;;
         }
     }
@@ -118,7 +117,7 @@ public:
     // Member Variables
     int comport_num = 8;
     int num_joints = 2;
-    std::vector<int> angles = {0, 0, 0, 0, 0, 0, 0};
+    std::vector<float> angles = {0, 0, 0, 0, 0, 0, 0};
     HANDLE hSerial;
     bool enabled = false;
 };

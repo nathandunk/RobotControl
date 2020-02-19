@@ -6,7 +6,8 @@
 #include "RobotLib/Utility/Timer.hpp"
 // #include "Plotter.h"
 
-char buff[6];
+float angles = [2];
+char buff[sizeof(angles)];
 
 const int n_joints = 2;
 
@@ -107,9 +108,13 @@ void setup(){
 void loop(){
     while(!stop){
         if(Serial.available() != 0){
-            Serial.readBytes(buff,6); // read the input
-            ref[0] = (buff[0]-'0')*100+(buff[1]-'0')*10+(buff[2]-'0');
-            ref[1] = (buff[3]-'0')*100+(buff[4]-'0')*10+(buff[5]-'0');
+            Serial.readBytes(buff,sizeof(buff)); // read the input
+            memcpy(&angles[0],&buff[0],sizeof(buff));
+            ref[0] = angles[0];
+            ref[1] = angles[1];
+            
+            //ref[0] = (buff[0]-'0')*100+(buff[1]-'0')*10+(buff[2]-'0');
+            //ref[1] = (buff[3]-'0')*100+(buff[4]-'0')*10+(buff[5]-'0');
         }
 
         robot.update_joints();
