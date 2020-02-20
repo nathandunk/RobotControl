@@ -27,15 +27,20 @@ public:
     {
         while(angles.size() < num_joints){
             angles.push_back(0);
+            encoders.push_back(0);
         }
         while(angles.size() > num_joints && num_joints>0){
             angles.pop_back();
+            encoders.pop_back();
         }
         ImGui::BeginFixed("Angle Control", {0,0}, {500,500}, ImGuiWindowFlags_NoTitleBar);
         ImGui::InputInt("Number of Joints:", &num_joints);
         if(num_joints > 0){
             for (size_t i = 0; i < num_joints; i++){
                 ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-180,180);
+            }
+            for (size_t i = 0; i < num_joints; i++){
+                ImGui::DragFloat(("Encoder " + std::to_string(i)).c_str(),&encoders[i],0.5,-180,180);
             }
         }
         ImGui::InputInt("Comport number:", &comport_num);
@@ -92,11 +97,12 @@ public:
     }
 
     void write_serial(){
-        std::string final_string = "";
-        for (auto i = 0; i < angles.size(); i++){
-            std::string angle_string = std::to_string(angles[i]);
-            final_string += std::string( 3-angle_string.length(), '0').append(angle_string);
-        }
+        // std::cout << "here" << std::endl;
+        // std::string final_string = "";
+        // for (auto i = 0; i < angles.size(); i++){
+        //     std::string angle_string = std::to_string(angles[i]);
+        //     final_string += std::string( 3-angle_string.length(), '0').append(angle_string);
+        // }
         
         // std::string angle_string = std::to_string(angle);
 
@@ -108,16 +114,35 @@ public:
 
         //std::cout << buff << std::endl;
         //std::cout <<sizeof(buff)/sizeof(*buff) << std::endl;
-        DWORD dwBytesRead = 0;
-        if(!WriteFile(hSerial, buff, sizeof(angles[0])*angles.size(), &dwBytesRead, NULL)){
+        // std::cout << sizeof(angles[0])*angles.size() << std::endl;
+        DWORD dwBytesWritten = 0;
+        if(!WriteFile(hSerial, buff, sizeof(angles[0])*angles.size(), &dwBytesWritten, NULL)){
             std::cout << "error writing to serial" << std::endl;;
         }
+
+        // char pos_buff[] = (char *) malloc(sizeof(encoders[0])*encoders.size());
+        char * pos_buff = new char[encoders.size()];
+
+        std::cout << sizeof(encoders[0])*encoders.size() << std::endl;
+        DWORD dwBytesRead = 0;
+        if(!ReadFile(hSerial, pos_buff, sizeof(encoders[0])*encoders.size(), &dwBytesRead, NULL)){
+            std::cout << "error reading from serial" << std::endl;
+        }
+        else{
+            memcpy(&encoders[0],pos_buff,sizeof(encoders[0])*encoders.size());
+        }
+
+        
+
+        // free(pos_buff);
+        delete[] pos_buff;
     }
 
     // Member Variables
     int comport_num = 8;
     int num_joints = 2;
     std::vector<float> angles = {0, 0, 0, 0, 0, 0, 0};
+    std::vector<float> encoders = {0, 0, 0, 0, 0, 0, 0};
     HANDLE hSerial;
     bool enabled = false;
 };
