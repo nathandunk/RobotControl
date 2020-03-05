@@ -119,6 +119,7 @@ void loop(){
             positions[1] = robot.get_position(1);
             Serial.write((char *)&positions[0],sizeof(positions));
         }
+        
 
         robot.update_joints();
 

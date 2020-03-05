@@ -3,7 +3,10 @@ cmake_minimum_required(VERSION 3.13)
 # create your C++ project
 project(ControlGUI VERSION 0.1.0 LANGUAGES CXX)
 
-add_subdirectory(mahi-gui)
+include(FetchContent)
+FetchContent_Declare(mahi-gui GIT_REPOSITORY https://github.com/mahilab/mahi-gui)
+FetchContent_MakeAvailable(mahi-gui)
+# add_subdirectory(mahi-gui)
 
 # add your include directories
 include_directories("include")

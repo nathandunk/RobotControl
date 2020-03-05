@@ -1,0 +1,185 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "mahi-gui/3rdparty/nanovg/RelWithDebInfo/nanovg-demo.exe"
+		},
+		{
+			"path" : "mahi-gui/3rdparty/nanovg/RelWithDebInfo/nanovg-demo.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"mahi-gui/3rdparty/nanovg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "NANOVG_GLAD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Git/RobotControl/Code/ControlGUI/mahi-gui/3rdparty/nanovg/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Git/RobotControl/Code/ControlGUI/mahi-gui/3rdparty/glfw/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Git/RobotControl/Code/ControlGUI/mahi-gui/3rdparty/glad/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@a8a8b2d4f2556c060710"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glad::@4d21b98a33035fbb000c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nanovg::@75ac06372ac9f9b2886f"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "nanovg-demo::@75ac06372ac9f9b2886f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "RelWithDebInfo\\nanovg.lib ..\\glfw\\src\\RelWithDebInfo\\glfw3.lib ..\\glad\\RelWithDebInfo\\glad.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "nanovg-demo",
+	"nameOnDisk" : "nanovg-demo.exe",
+	"paths" : 
+	{
+		"build" : "mahi-gui/3rdparty/nanovg",
+		"source" : "mahi-gui/3rdparty/nanovg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "mahi-gui/3rdparty/nanovg/example/demo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mahi-gui/3rdparty/nanovg/example/demo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mahi-gui/3rdparty/nanovg/example/example_gl3.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mahi-gui/3rdparty/nanovg/example/perf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mahi-gui/3rdparty/nanovg/example/perf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mahi-gui/3rdparty/nanovg/example/stb_image_write.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

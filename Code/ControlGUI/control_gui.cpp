@@ -13,9 +13,42 @@ using namespace mahi::gui;
 class RobotControl : public Application {
 public:
     /// Constructor
-    RobotControl() : Application(500,500,"Robot Control") 
+    RobotControl() : Application() 
     { 
-        ImGui::DisableViewports();
+        // ImGui::DisableViewports();
+        // ImGui::StyleColorsLight();
+        // hideWindow();
+
+        // // Add plotting parameters necessary
+        rt_plot.xAxis.minimum = 0;   
+        rt_plot.xAxis.maximum = 10;
+        rt_plot.yAxis.minimum = -200;   
+        rt_plot.yAxis.maximum = 200;
+        // rt_plot.xAxis.showLabels = true;
+
+        oh_plot.xAxis.minimum = -10;   
+        oh_plot.xAxis.maximum = 10;
+        oh_plot.yAxis.minimum = -10;   
+        oh_plot.yAxis.maximum = 10;        
+
+        rt_items.resize(2*num_joints);
+        for (auto i = 0; i < rt_items.size(); i++){
+            // rt_items[i].color = Grays::Gray50;
+            if (i < num_joints) rt_items[i].label = "Command " + std::to_string(i);
+            else                 rt_items[i].label = "Encoder " + std::to_string(i);
+            rt_items[i].data.reserve(1000);
+            rt_items[i].size = 3;
+        }
+
+        oh_items.resize(2);
+        oh_items[0].color = Whites::White;
+        oh_items[1].color = Whites::White;
+        oh_items[0].data  = {ImVec2(oh_plot.xAxis.minimum, 0),ImVec2(oh_plot.xAxis.maximum, 0)};
+        oh_items[1].data  = {ImVec2(0,oh_plot.yAxis.minimum),ImVec2(0,oh_plot.yAxis.maximum)};
+        oh_items[0].size = 3;
+        oh_items[1].size = 3;
+        oh_items[0].type = ImGui::PlotItem::Line;
+        oh_items[1].type = ImGui::PlotItem::Line;
     }
 
     ~RobotControl() {
@@ -33,14 +66,15 @@ public:
             angles.pop_back();
             encoders.pop_back();
         }
-        ImGui::BeginFixed("Angle Control", {0,0}, {500,500}, ImGuiWindowFlags_NoTitleBar);
+        ImGui::Begin("Angle Control", &open);
         ImGui::InputInt("Number of Joints:", &num_joints);
+        // ImGui::BeginGroup();
         if(num_joints > 0){
             for (size_t i = 0; i < num_joints; i++){
-                ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-180,180);
+                ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-200,200);
             }
             for (size_t i = 0; i < num_joints; i++){
-                ImGui::DragFloat(("Encoder " + std::to_string(i)).c_str(),&encoders[i],0.5,-180,180);
+                ImGui::DragFloat(("Encoder " + std::to_string(i)).c_str(),&encoders[i],0.5,-200,200);
             }
         }
         ImGui::InputInt("Comport number:", &comport_num);
@@ -48,11 +82,24 @@ public:
             begin_serial();
         }
         ImGui::Checkbox("Enable", &enabled);
+        for (auto i = 0; i < num_joints; i++){
+            ImGui::PlotItemBufferPoint(rt_items[i], (float)time(), angles[i], 1000);
+            ImGui::PlotItemBufferPoint(rt_items[i+num_joints],(float)time(),encoders[i],1000);
+        }
+        rt_plot.xAxis.minimum = (float)time() - 10.0f;
+        rt_plot.xAxis.maximum = (float)time();
+        ImGui::Plot("Position and Encoders", rt_plot, rt_items, ImVec2(ImGui::GetWindowWidth()/2.0-20.0,-1));
+        
+        // ImGui::Text("Test");
+        ImGui::SameLine();
+
+        ImGui::Plot("Overhead View Control", oh_plot, oh_items, ImVec2(ImGui::GetWindowWidth()/2.0-20.0,-1));
         ImGui::End();
         if (enabled){
-            // for (auto i = 0; i < num_joints; i++){
-                write_serial();
-            // }
+            write_serial();
+        }
+        if (!open){
+            quit();
         }
     }
 
@@ -97,44 +144,27 @@ public:
     }
 
     void write_serial(){
-        // std::cout << "here" << std::endl;
-        // std::string final_string = "";
-        // for (auto i = 0; i < angles.size(); i++){
-        //     std::string angle_string = std::to_string(angles[i]);
-        //     final_string += std::string( 3-angle_string.length(), '0').append(angle_string);
-        // }
-        
-        // std::string angle_string = std::to_string(angle);
 
-        // std::string final_string = std::string( 3-angle_string.length(), '0').append(angle_string);
-
+        // write reference angles
         char *buff = (char *)&angles[0];
-        
-        //strcpy(buff,final_string.c_str());
-
-        //std::cout << buff << std::endl;
-        //std::cout <<sizeof(buff)/sizeof(*buff) << std::endl;
-        // std::cout << sizeof(angles[0])*angles.size() << std::endl;
         DWORD dwBytesWritten = 0;
         if(!WriteFile(hSerial, buff, sizeof(angles[0])*angles.size(), &dwBytesWritten, NULL)){
-            std::cout << "error writing to serial" << std::endl;;
+            std::cout << "error writing to serial" << std::endl;
         }
 
-        // char pos_buff[] = (char *) malloc(sizeof(encoders[0])*encoders.size());
         char * pos_buff = new char[encoders.size()];
-
-        std::cout << sizeof(encoders[0])*encoders.size() << std::endl;
+        // read encoder positions
         DWORD dwBytesRead = 0;
         if(!ReadFile(hSerial, pos_buff, sizeof(encoders[0])*encoders.size(), &dwBytesRead, NULL)){
             std::cout << "error reading from serial" << std::endl;
         }
         else{
-            memcpy(&encoders[0],pos_buff,sizeof(encoders[0])*encoders.size());
+            if(dwBytesRead > 0){
+                memcpy(&encoders[0],pos_buff,sizeof(encoders[0])*encoders.size());
+            }
         }
 
-        
-
-        // free(pos_buff);
+        // clear up memory from declaring char vector with new operator
         delete[] pos_buff;
     }
 
@@ -145,6 +175,11 @@ public:
     std::vector<float> encoders = {0, 0, 0, 0, 0, 0, 0};
     HANDLE hSerial;
     bool enabled = false;
+    bool open = true;
+    ImGui::PlotInterface rt_plot;
+    ImGui::PlotInterface oh_plot;
+    std::vector<ImGui::PlotItem> rt_items;
+    std::vector<ImGui::PlotItem> oh_items;
 };
 
 int main(int argc, char const *argv[])

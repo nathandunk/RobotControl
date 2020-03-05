@@ -1,0 +1,1672 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"build" : "mahi-gui",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mahi-gui",
+					"targetIndexes" : 
+					[
+						2,
+						13
+					]
+				},
+				{
+					"build" : "mahi-gui/src/mahi",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi"
+				},
+				{
+					"build" : "mahi-gui/src/mahi/Fonts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi/Fonts"
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						22
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/glad",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nativefiledialog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nativefiledialog",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nanovg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nanovg",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "mahi-gui/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/examples",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						14,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "mahi_gui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-71ffe50cc15bd2ba7143.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@736f0e68505d484ce993",
+					"jsonFile" : "target-ALL_BUILD-Debug-5ea7a5e81ddeba20a3a0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-ALL_BUILD-Debug-f6b6d4cc74ad5302ae2d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-4f9926e0dc4c28ac94a4.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_gui-Debug-7340a78c0c4576e48d05.json",
+					"name" : "control_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "coroutines::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-coroutines-Debug-007429821f1a4587086f.json",
+					"name" : "coroutines",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "demo::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-demo-Debug-8a0ce1bbd0d7a75d5154.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "drawing::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-drawing-Debug-829efaaa6af8b48166cb.json",
+					"name" : "drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "events::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-events-Debug-eed2a29a004c6ddb69dd.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "files::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-files-Debug-50bb39df73d1fba841d4.json",
+					"name" : "files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glad::@4d21b98a33035fbb000c",
+					"jsonFile" : "target-glad-Debug-91a519e44fc39db0a7cd.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@a8a8b2d4f2556c060710",
+					"jsonFile" : "target-glfw-Debug-e5a704fc6ab625cbc932.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "likert::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-likert-Debug-c9806f03b1accb4d224e.json",
+					"name" : "likert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mahi_gui::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-mahi_gui-Debug-e2ce59b81ec203e06071.json",
+					"name" : "mahi_gui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "msd::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-msd-Debug-b739dff6688f36cee3e9.json",
+					"name" : "msd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-Debug-84a23e3893ee3e836ac1.json",
+					"name" : "nanovg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg-demo::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-demo-Debug-b22eeadba370236819e5.json",
+					"name" : "nanovg-demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "nativefiledialog::@65d5a87958ad845a7c7f",
+					"jsonFile" : "target-nativefiledialog-Debug-9f36cd02dd50f252fcb7.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "nvg::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-nvg-Debug-b408fc8a1ac2d4760c09.json",
+					"name" : "nvg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-plots-Debug-56e38d3fe65fcfbffa81.json",
+					"name" : "plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rt_plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-rt_plots-Debug-cc4788b7617bf3b80fb8.json",
+					"name" : "rt_plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_test-Debug-b2cee94bf78ffb25a78d.json",
+					"name" : "serial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@736f0e68505d484ce993",
+					"jsonFile" : "target-uninstall-Debug-e85016b1daf3cb34e639.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"build" : "mahi-gui",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mahi-gui",
+					"targetIndexes" : 
+					[
+						2,
+						13
+					]
+				},
+				{
+					"build" : "mahi-gui/src/mahi",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi"
+				},
+				{
+					"build" : "mahi-gui/src/mahi/Fonts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi/Fonts"
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						22
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/glad",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nativefiledialog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nativefiledialog",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nanovg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nanovg",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "mahi-gui/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/examples",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						14,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "mahi_gui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-71ffe50cc15bd2ba7143.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@736f0e68505d484ce993",
+					"jsonFile" : "target-ALL_BUILD-Release-5ea7a5e81ddeba20a3a0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-ALL_BUILD-Release-f6b6d4cc74ad5302ae2d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-4f9926e0dc4c28ac94a4.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_gui-Release-d9bf84426aef9b6e5838.json",
+					"name" : "control_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "coroutines::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-coroutines-Release-3066de40a90e43a23338.json",
+					"name" : "coroutines",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "demo::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-demo-Release-e99220342de444d1d7db.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "drawing::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-drawing-Release-acc51a0735318ddf12bb.json",
+					"name" : "drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "events::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-events-Release-d5f0748d83fe9e1a48f9.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "files::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-files-Release-3f1c743294f1d5194740.json",
+					"name" : "files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glad::@4d21b98a33035fbb000c",
+					"jsonFile" : "target-glad-Release-2f6f7a265e1f04956d6f.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@a8a8b2d4f2556c060710",
+					"jsonFile" : "target-glfw-Release-1192cfbcec82506912ca.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "likert::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-likert-Release-72decbbf831884ff7c03.json",
+					"name" : "likert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mahi_gui::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-mahi_gui-Release-807f043f9fb7befb17f8.json",
+					"name" : "mahi_gui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "msd::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-msd-Release-df474c5698c3cd29684f.json",
+					"name" : "msd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-Release-d9cc91bad736e39fdcc5.json",
+					"name" : "nanovg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg-demo::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-demo-Release-e16c518432aebbc2708d.json",
+					"name" : "nanovg-demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "nativefiledialog::@65d5a87958ad845a7c7f",
+					"jsonFile" : "target-nativefiledialog-Release-484e9000af9300df75c3.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "nvg::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-nvg-Release-30ce4975499800469dd9.json",
+					"name" : "nvg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-plots-Release-be243fca046515ed2607.json",
+					"name" : "plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rt_plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-rt_plots-Release-dbb6102f2b2e9cf089f5.json",
+					"name" : "rt_plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_test-Release-ad45f92d05f117b0939d.json",
+					"name" : "serial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@736f0e68505d484ce993",
+					"jsonFile" : "target-uninstall-Release-e85016b1daf3cb34e639.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"build" : "mahi-gui",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mahi-gui",
+					"targetIndexes" : 
+					[
+						2,
+						13
+					]
+				},
+				{
+					"build" : "mahi-gui/src/mahi",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi"
+				},
+				{
+					"build" : "mahi-gui/src/mahi/Fonts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi/Fonts"
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						22
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/glad",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nativefiledialog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nativefiledialog",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nanovg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nanovg",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "mahi-gui/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/examples",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						14,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "mahi_gui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-71ffe50cc15bd2ba7143.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@736f0e68505d484ce993",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5ea7a5e81ddeba20a3a0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f6b6d4cc74ad5302ae2d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-4f9926e0dc4c28ac94a4.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_gui-MinSizeRel-8e94d7599b7375d66436.json",
+					"name" : "control_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "coroutines::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-coroutines-MinSizeRel-d9be7fa5f2a0e642e141.json",
+					"name" : "coroutines",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "demo::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-demo-MinSizeRel-f62ea0d430247540bf30.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "drawing::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-drawing-MinSizeRel-f012c9ef3f6f84eaeec2.json",
+					"name" : "drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "events::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-events-MinSizeRel-5ba749d97d5ab356fc01.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "files::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-files-MinSizeRel-0a71857cca77e74f0d55.json",
+					"name" : "files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glad::@4d21b98a33035fbb000c",
+					"jsonFile" : "target-glad-MinSizeRel-4422642a446143bc330c.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@a8a8b2d4f2556c060710",
+					"jsonFile" : "target-glfw-MinSizeRel-76a49955999a1478fea1.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "likert::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-likert-MinSizeRel-4f35c3e58566fe24811b.json",
+					"name" : "likert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mahi_gui::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-mahi_gui-MinSizeRel-7954f73bf3eda9d4fc5c.json",
+					"name" : "mahi_gui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "msd::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-msd-MinSizeRel-1c21161cff5279dddbc2.json",
+					"name" : "msd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-MinSizeRel-6ad4cb4247aea7cd08ce.json",
+					"name" : "nanovg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg-demo::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-demo-MinSizeRel-f05d2a1b16c24debc9e6.json",
+					"name" : "nanovg-demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "nativefiledialog::@65d5a87958ad845a7c7f",
+					"jsonFile" : "target-nativefiledialog-MinSizeRel-a1a33e5e6a8d23c675cf.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "nvg::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-nvg-MinSizeRel-2716c1c371cfd8662bd1.json",
+					"name" : "nvg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-plots-MinSizeRel-b231809b1c4d02d25b12.json",
+					"name" : "plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rt_plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-rt_plots-MinSizeRel-40f1bb0813927ef470fa.json",
+					"name" : "rt_plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_test-MinSizeRel-ff1c593edba94d3e1525.json",
+					"name" : "serial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@736f0e68505d484ce993",
+					"jsonFile" : "target-uninstall-MinSizeRel-e85016b1daf3cb34e639.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"build" : "mahi-gui",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mahi-gui",
+					"targetIndexes" : 
+					[
+						2,
+						13
+					]
+				},
+				{
+					"build" : "mahi-gui/src/mahi",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi"
+				},
+				{
+					"build" : "mahi-gui/src/mahi/Fonts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/src/mahi/Fonts"
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						22
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "mahi-gui/3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/glad",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nativefiledialog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nativefiledialog",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "mahi-gui/3rdparty/nanovg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/3rdparty/nanovg",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "mahi-gui/examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "mahi-gui/examples",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						12,
+						14,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "mahi_gui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						11,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-71ffe50cc15bd2ba7143.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@736f0e68505d484ce993",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5ea7a5e81ddeba20a3a0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f6b6d4cc74ad5302ae2d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-4f9926e0dc4c28ac94a4.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_gui-RelWithDebInfo-4e18dbf86e68f38cb602.json",
+					"name" : "control_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "coroutines::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-coroutines-RelWithDebInfo-fbc7f9d8bdfd01491aef.json",
+					"name" : "coroutines",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "demo::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-demo-RelWithDebInfo-22a952041c7c3e0885f8.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "drawing::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-drawing-RelWithDebInfo-c8ba50fd92924b932844.json",
+					"name" : "drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "events::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-events-RelWithDebInfo-21262f19f667b6f99988.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "files::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-files-RelWithDebInfo-4cac860f4edfafe9d23d.json",
+					"name" : "files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glad::@4d21b98a33035fbb000c",
+					"jsonFile" : "target-glad-RelWithDebInfo-4762ee2ea88adfaa7ee9.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@a8a8b2d4f2556c060710",
+					"jsonFile" : "target-glfw-RelWithDebInfo-c600f18bd19c25a7b14c.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "likert::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-likert-RelWithDebInfo-cc0ba882a96f724ba63d.json",
+					"name" : "likert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mahi_gui::@e96c06b9b46b0fe54171",
+					"jsonFile" : "target-mahi_gui-RelWithDebInfo-d89078ae133c108c0505.json",
+					"name" : "mahi_gui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "msd::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-msd-RelWithDebInfo-5d2e29f22de3780f3068.json",
+					"name" : "msd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-RelWithDebInfo-cf313bfef078a21ee991.json",
+					"name" : "nanovg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "nanovg-demo::@75ac06372ac9f9b2886f",
+					"jsonFile" : "target-nanovg-demo-RelWithDebInfo-5692ca6e42a769ed1d88.json",
+					"name" : "nanovg-demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "nativefiledialog::@65d5a87958ad845a7c7f",
+					"jsonFile" : "target-nativefiledialog-RelWithDebInfo-95b322ad4d9b459849e0.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "nvg::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-nvg-RelWithDebInfo-0c760cc6c1a661884e85.json",
+					"name" : "nvg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-plots-RelWithDebInfo-86cd4b3b5a154524bbcf.json",
+					"name" : "plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rt_plots::@ace9f2fd28f4e61bb995",
+					"jsonFile" : "target-rt_plots-RelWithDebInfo-0429b71bdb6071f7058b.json",
+					"name" : "rt_plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_test-RelWithDebInfo-2c55ebd6c365f1e6c576.json",
+					"name" : "serial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@736f0e68505d484ce993",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-e85016b1daf3cb34e639.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release",
+		"source" : "C:/Git/RobotControl/Code/ControlGUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

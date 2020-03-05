@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Svg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\imgui_custom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Coroutine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\FontAwesome5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\FontAwesome5Brands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoRegular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoBold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoItalic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoMonoRegular.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoMonoBold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\src\mahi\Fonts\RobotoMonoItalic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_stdlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\examples\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\examples\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Color.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Coroutine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Detail\Math.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Detail\Tween.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Detail\Vec2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Icons\IconsFontAwesome5.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Icons\IconsFontAwesome5Brands.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Macros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Print.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Range.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Sequence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Svg.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\System.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Tween.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\Vec2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\gui.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include\mahi\imgui_custom.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\imgui_stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\examples\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui\examples\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E5DB2894-A871-3EF6-9FAD-29D48EE51E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE186451-6C5A-37A8-87A4-E14D93FEB098}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

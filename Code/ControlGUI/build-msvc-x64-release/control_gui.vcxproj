@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AFEB1D9D-D88A-3D6E-9F24-5911C10A97AB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>control_gui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">control_gui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">control_gui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">control_gui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">control_gui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">control_gui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">control_gui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">control_gui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">control_gui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>mahi-gui\Debug\mahi_gui-d.lib;mahi-gui\3rdparty\glfw\src\Debug\glfw3.lib;mahi-gui\3rdparty\glad\Debug\glad.lib;mahi-gui\3rdparty\nativefiledialog\Debug\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\Debug\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/Debug/control_gui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/Debug/control_gui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>mahi-gui\Release\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\Release\glfw3.lib;mahi-gui\3rdparty\glad\Release\glad.lib;mahi-gui\3rdparty\nativefiledialog\Release\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\Release\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/Release/control_gui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/Release/control_gui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>mahi-gui\MinSizeRel\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\MinSizeRel\glfw3.lib;mahi-gui\3rdparty\glad\MinSizeRel\glad.lib;mahi-gui\3rdparty\nativefiledialog\MinSizeRel\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\MinSizeRel\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/MinSizeRel/control_gui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/MinSizeRel/control_gui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_GUI_COROUTINES;NANOVG_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Code\ControlGUI\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\imgui;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\json\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanosvg\src;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glad\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nativefiledialog\include;C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\nanovg\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>mahi-gui\RelWithDebInfo\mahi_gui.lib;mahi-gui\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;mahi-gui\3rdparty\glad\RelWithDebInfo\glad.lib;mahi-gui\3rdparty\nativefiledialog\RelWithDebInfo\nativefiledialog.lib;comctl32.lib;mahi-gui\3rdparty\nanovg\RelWithDebInfo\nanovg.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/RelWithDebInfo/control_gui.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/RelWithDebInfo/control_gui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Code/ControlGUI -BC:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release --check-stamp-file C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Code/ControlGUI -BC:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release --check-stamp-file C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Code/ControlGUI -BC:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release --check-stamp-file C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Code/ControlGUI -BC:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release --check-stamp-file C:/Git/RobotControl/Code/ControlGUI/build-msvc-x64-release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Git/RobotControl/Code/ControlGUI/CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\3.14.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Git\RobotControl\Code\ControlGUI\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Git\RobotControl\Code\ControlGUI\control_gui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\ZERO_CHECK.vcxproj">
+      <Project>{5DA30F08-DD8F-33CE-81A3-3AC6F7C1218F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\3rdparty\glad\glad.vcxproj">
+      <Project>{2BBD47BC-36C6-353F-A9E6-09BE5FA7E640}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{F49CE9B6-6D1F-3B4E-A5C1-5ECA7521D7FB}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\mahi_gui.vcxproj">
+      <Project>{8BD9734D-F710-32A9-A4F4-15031D41E714}</Project>
+      <Name>mahi_gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\3rdparty\nanovg\nanovg.vcxproj">
+      <Project>{43D6FDB6-04BE-35FD-B9D4-1C0842CE8A43}</Project>
+      <Name>nanovg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\3rdparty\nativefiledialog\nativefiledialog.vcxproj">
+      <Project>{8F08612E-42FC-3FA7-9A66-410FD90ABF78}</Project>
+      <Name>nativefiledialog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

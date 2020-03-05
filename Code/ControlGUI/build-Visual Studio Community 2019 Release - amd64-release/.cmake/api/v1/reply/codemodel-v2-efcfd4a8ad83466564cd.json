@@ -1,0 +1,404 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/3rdparty/glfw",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/3rdparty/glfw",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/3rdparty/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/3rdparty/glfw/src",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/3rdparty/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/3rdparty/glad",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/3rdparty/nativefiledialog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/3rdparty/nativefiledialog",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/3rdparty/nanovg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/3rdparty/nanovg",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "_deps/mahi-gui-build/src/mahi/gui",
+					"childIndexes" : 
+					[
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/src/mahi/gui"
+				},
+				{
+					"build" : "_deps/mahi-gui-build/src/mahi/gui/Fonts",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/src/mahi/gui/Fonts"
+				},
+				{
+					"build" : "_deps/mahi-gui-build/examples",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build-Visual Studio Community 2019 Release - amd64-release/_deps/mahi-gui-src/examples",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						9,
+						10,
+						11,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						18
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "mahi-gui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						7,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "control_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_gui-Release-9cdb3cdac99a5a23fb6d.json",
+					"name" : "control_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "coroutines::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-coroutines-Release-b267102acdfe2c852e42.json",
+					"name" : "coroutines",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "demo::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-demo-Release-b0c70f479a309d0d872e.json",
+					"name" : "demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "drawing::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-drawing-Release-b65c10e861c61e5b407c.json",
+					"name" : "drawing",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "events::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-events-Release-c5b3d3a6eb70f760a88f.json",
+					"name" : "events",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "files::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-files-Release-02f5ab8edca88dcf2a61.json",
+					"name" : "files",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glad::@8ab0b9cb3b88849ec662",
+					"jsonFile" : "target-glad-Release-31ddbdc00d105c7d55a1.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@292da2318190b66a3baa",
+					"jsonFile" : "target-glfw-Release-53791b7fd9055db97f11.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gui::@b89b3f0f161a861a84d0",
+					"jsonFile" : "target-gui-Release-c095319bf5beedec9071.json",
+					"name" : "gui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "hidden::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-hidden-Release-ef8760e4cb7ba06d6323.json",
+					"name" : "hidden",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "likert::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-likert-Release-c70663e842ed0d51c20a.json",
+					"name" : "likert",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "msd::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-msd-Release-995e28eba61239a144cc.json",
+					"name" : "msd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "nanovg::@c7daccaf0a7753883acf",
+					"jsonFile" : "target-nanovg-Release-6da1d6d3bc7db7eb3e33.json",
+					"name" : "nanovg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "nanovg-demo::@c7daccaf0a7753883acf",
+					"jsonFile" : "target-nanovg-demo-Release-9b32fbe1e56129f781d7.json",
+					"name" : "nanovg-demo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "nativefiledialog::@7f5c8b9f84162580c13e",
+					"jsonFile" : "target-nativefiledialog-Release-a1148af722a63fdd5d21.json",
+					"name" : "nativefiledialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "nvg::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-nvg-Release-556efb09657f2a2f0a9a.json",
+					"name" : "nvg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "plots::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-plots-Release-b97aad92ad7089b847e0.json",
+					"name" : "plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "rt_plots::@bfa4c071fa67dedf9e3f",
+					"jsonFile" : "target-rt_plots-Release-9f813fd2a3e49d51e9f1.json",
+					"name" : "rt_plots",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_test-Release-5b7971b234051ea9485c.json",
+					"name" : "serial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@bb8c698527e6e1f6c780",
+					"jsonFile" : "target-uninstall-Release-03aa1592f18d9f658748.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Git/RobotControl/Code/ControlGUI/build-Visual Studio Community 2019 Release - amd64-release",
+		"source" : "C:/Git/RobotControl/Code/ControlGUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

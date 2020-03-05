@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\CMakeFiles\d2b5b6d530026c2c810358df3a1ef859\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\ControlGUI\mahi-gui\3rdparty\glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git\RobotControl\Code\ControlGUI\build-msvc-x64-release\mahi-gui\3rdparty\glfw\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6F4EFAE9-5803-31F6-AF09-E8FED6D20AD3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
