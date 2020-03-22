@@ -17,10 +17,11 @@
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
 
-//Semicolon separated list of supported configuration types, only
-// supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
-// else will be ignored.
-CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Release
+
+//CXX compiler
+CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
@@ -39,6 +40,9 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
@@ -72,6 +76,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
+
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -125,7 +132,10 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/link.exe
+
+//make program
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -148,7 +158,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Path to a program.
-CMAKE_MT:FILEPATH=CMAKE_MT-NOTFOUND
+CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.18362.0/x64/mt.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -175,7 +185,7 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=rc
+CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.18362.0/x64/rc.exe
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=/DWIN32
@@ -251,8 +261,62 @@ ControlGUI_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build
 //Value Computed by CMake
 ControlGUI_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Git/RobotControl/Code/ControlGUI/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for mahi-gui
+FETCHCONTENT_SOURCE_DIR_MAHI-GUI:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for mahi-util
+FETCHCONTENT_SOURCE_DIR_MAHI-UTIL:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of mahi-gui
+FETCHCONTENT_UPDATES_DISCONNECTED_MAHI-GUI:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of mahi-util
+FETCHCONTENT_UPDATES_DISCONNECTED_MAHI-UTIL:BOOL=OFF
+
 //Value Computed by CMake
-GLFW_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui/3rdparty/glfw
+FMT_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-build/3rdparty/fmt
+
+//Generate the cuda-test target.
+FMT_CUDA_TEST:BOOL=OFF
+
+//Generate the doc target.
+FMT_DOC:BOOL=OFF
+
+//Generate the fuzz target.
+FMT_FUZZ:BOOL=OFF
+
+//Generate the install target.
+FMT_INSTALL:BOOL=OFF
+
+//Enable extra warnings and expensive tests.
+FMT_PEDANTIC:BOOL=OFF
+
+//Value Computed by CMake
+FMT_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/3rdparty/fmt
+
+//Generate the test target.
+FMT_TEST:BOOL=OFF
+
+//Halt the compilation with an error on compiler warnings.
+FMT_WERROR:BOOL=OFF
+
+//Value Computed by CMake
+GLFW_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-build/3rdparty/glfw
 
 //Build the GLFW documentation
 GLFW_BUILD_DOCS:BOOL=OFF
@@ -267,7 +331,7 @@ GLFW_BUILD_TESTS:BOOL=OFF
 GLFW_INSTALL:BOOL=ON
 
 //Value Computed by CMake
-GLFW_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/mahi-gui/3rdparty/glfw
+GLFW_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw
 
 //Force use of high-performance GPU on hybrid systems
 GLFW_USE_HYBRID_HPG:BOOL=OFF
@@ -275,20 +339,35 @@ GLFW_USE_HYBRID_HPG:BOOL=OFF
 //Assume the Vulkan loader is linked with the application
 GLFW_VULKAN_STATIC:BOOL=OFF
 
-//Turn ON to build experimental coroutine support
-MAHI_GUI_COROUTINES:BOOL=ON
-
 //Turn ON to build mahi-gui example(s)
-MAHI_GUI_EXAMPLES:BOOL=ON
+MAHI_GUI_EXAMPLES:BOOL=OFF
+
+//Turn ON to build experimental coroutine support
+MAHI_UTIL_COROUTINES:BOOL=ON
+
+//Turn ON to enable a default log output to console/file
+MAHI_UTIL_DEFAULT_LOG:BOOL=ON
+
+//Turn ON to build example executable(s)
+MAHI_UTIL_EXAMPLES:BOOL=OFF
+
+//Turn ON to enable filename capture in logs
+MAHI_UTIL_LOG_CAPTURE_FILE:BOOL=ON
 
 //Use MSVC runtime library DLL
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
 
 //Value Computed by CMake
-mahi_gui_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/mahi-gui
+mahi-gui_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-build
 
 //Value Computed by CMake
-mahi_gui_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/mahi-gui
+mahi-gui_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src
+
+//Value Computed by CMake
+mahi-util_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-build
+
+//Value Computed by CMake
+mahi-util_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src
 
 
 ########################
@@ -309,6 +388,8 @@ CMAKE_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cmake.exe
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cpack.exe
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/CMake/bin/ctest.exe
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -321,6 +402,8 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
 CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -345,12 +428,14 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Visual Studio 16 2019
+CMAKE_GENERATOR:INTERNAL=Ninja
 //Generator instance identifier.
-CMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community
+CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
@@ -394,6 +479,8 @@ CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
 CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
@@ -407,7 +494,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER
@@ -453,6 +540,18 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Test FMT_HAS_VARIANT
+FMT_HAS_VARIANT:INTERNAL=1
+//Have symbol _strtod_l
+HAVE_STRTOD_L:INTERNAL=1
+//Test SUPPORTS_USER_DEFINED_LITERALS
+SUPPORTS_USER_DEFINED_LITERALS:INTERNAL=1
+//Test SUPPORTS_VARIADIC_TEMPLATES
+SUPPORTS_VARIADIC_TEMPLATES:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/ControlGUI
+//Test has_std_0x_flag
+has_std_0x_flag:INTERNAL=
+//Test has_std_11_flag
+has_std_11_flag:INTERNAL=
 
