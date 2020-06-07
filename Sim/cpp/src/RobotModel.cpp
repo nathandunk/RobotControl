@@ -17,11 +17,7 @@ void RobotModel::update(double dt){
 }
 
 void RobotModel::integrate_state(Vector3d Qdd, double dt){
-    // Vector3d Qd = m_s.Qd + dt * 0.5 * (m_s.Qdd + Qdd);
-    // m_s.Q = m_s.Q + dt * 0.5 * (m_s.Qd + Qd);
     
-    // m_s.Qd  = Qd;
-    // m_s.Qdd = Qdd;
     Vector3d Qd  = m_s.Qd + dt * 0.5 * (m_s.Qdd + Qdd);
     Vector3d Q   = m_s.Q  + dt * 0.5 * (m_s.Qd  + Qd);
     m_s.Qdd = Qdd; m_s.Qd = Qd; m_s.Q = Q;
@@ -70,11 +66,23 @@ Vector3d RobotModel::G(){
 Vector3d RobotModel::B(){
     Vector3d B = Vector3d::Zero();
 
+    constexpr double B_coef = 0.0001;
+
+    B[0] = B_coef*m_s.Qd[0];
+    B[1] = B_coef*m_s.Qd[1];
+    B[2] = B_coef*m_s.Qd[2];    
+
     return B;
 }
 
 Vector3d RobotModel::Fk(){
     Vector3d Fk = Vector3d::Zero();
+
+    constexpr double Fk_coef = 0.001;
+
+    Fk[0] = Fk_coef*std::tanh(m_s.Qd[0]*10);
+    Fk[1] = Fk_coef*std::tanh(m_s.Qd[1]*10);
+    Fk[2] = Fk_coef*std::tanh(m_s.Qd[2]*10);
 
     return Fk;
 }

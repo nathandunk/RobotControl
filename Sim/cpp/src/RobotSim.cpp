@@ -12,6 +12,9 @@ RobotModel rob;
 std::atomic_bool stop_;
 double t;
 double t_last;
+Vector3d Qref(0,0,0);
+Vector3d Kp(0.1,0.1,0.1);
+Vector3d Kd(0.001,0.001,0.001);
 std::thread sim_thread;
 
 void sim(){
@@ -20,6 +23,7 @@ void sim(){
         while(!stop_){
             {
                 std::mutex lock;
+                rob.m_s.Tau = Kp.asDiagonal()*(Qref-rob.m_s.Q)-Kd.asDiagonal()*rob.m_s.Qd;
                 rob.update(0.001);
             }
             t_last = t;
@@ -58,5 +62,13 @@ DLL_EXPORT void set_Tau(double* Tau){
     for (size_t i = 0; i < 3; i++)
     {
         rob.m_s.Tau[i] = Tau[i];
+    } 
+}
+
+DLL_EXPORT void set_Qref(double* Qref_){
+    std::mutex lock;
+    for (size_t i = 0; i < 3; i++)
+    {
+        Qref[i] = Qref_[i];
     } 
 }

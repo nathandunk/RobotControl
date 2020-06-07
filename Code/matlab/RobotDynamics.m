@@ -39,10 +39,10 @@ Ic3 = [Ic3xx -Ic3xy -Ic3xz;
 
 %% Forward Kinematics
            %a %alpha %d  %theta
-DH_table = [ 0,     0,  0,      q1;
-             0, -pi/2,  0, q2-pi/2;
-            l1,     0,  0,      q3;
-            l2,     0,  0,       0];
+DH_table = [ 0,    0,  0,      q1;
+             0, pi/2,  0, q2+pi/2;
+            l1,    0,  0,      q3;
+            l2,    0,  0,       0];
 
 [~,T_array] = dh2tf(DH_table);
 
@@ -104,7 +104,7 @@ l1    =  0.08800000; % m
 l2    =  0.09300000; % m
 g     =  9.80665000; % kg*m/s^2
 
-q   = [0, 0, 0];
+q   = [0, pi, 0];
 qd  = [0, 0, 0];
 tau = [0, 0, 0].';
 
@@ -119,3 +119,10 @@ G_eval = vpa(subs(G_eval,[Q.',Qd.'],[q,qd]),4)
 a = M_eval;
 b = tau - V_eval-G_eval;
 vpa(a\b)
+
+%% Test with ODE45
+
+x0 = [0,pi,0,0,0,0].';
+tspan = [0,5];
+[t,xsol] = ode45(@eom,tspan,x0);
+plot(t,xsol(:,1:3));
