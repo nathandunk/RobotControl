@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\Limiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\PdController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\PidController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\AtiSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\CurrentAmplifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\DcMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\ForceSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\TorqueSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\Limiter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\PdController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\PidController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\AtiSensor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\CurrentAmplifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\DcMotor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\ForceSensor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\TorqueSensor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{63098F2D-6420-3E00-A051-CFCAF97AED41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{758E3791-1BFF-36E0-9E3D-F4C4A5AAAC08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

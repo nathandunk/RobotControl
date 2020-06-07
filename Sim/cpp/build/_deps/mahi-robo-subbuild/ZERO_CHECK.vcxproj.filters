@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-subbuild\CMakeFiles\75c177b5f4dab7ff07b9728071f92567\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0B1719CB-B9FB-316E-A9F0-21BF0C9A59C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

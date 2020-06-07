@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-gui-src/CMakeLists.txt
+C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-gui-src/cmake/mahi-gui-config.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake

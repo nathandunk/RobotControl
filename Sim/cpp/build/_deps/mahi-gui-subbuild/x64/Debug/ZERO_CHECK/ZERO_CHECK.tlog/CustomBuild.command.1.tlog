@@ -1,0 +1,10 @@
+^C:\GIT\ROBOTCONTROL\SIM\CPP\BUILD\_DEPS\MAHI-GUI-SUBBUILD\CMAKEFILES\151512CC9D1503B266393A265160E230\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Sim/cpp/build/_deps/mahi-gui-subbuild -BC:/Git/RobotControl/Sim/cpp/build/_deps/mahi-gui-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-gui-subbuild/mahi-gui-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

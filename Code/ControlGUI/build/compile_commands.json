@@ -1,0 +1,451 @@
+[
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\include -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /FoCMakeFiles\\control_gui.dir\\control_gui.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\control_gui.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/control_gui.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG   /FoCMakeFiles\\serial_test.dir\\serial_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\serial_test.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/serial_test.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Application.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Application.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Application.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Color.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Color.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Color.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Native.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Native.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Native.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Shape.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Shape.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Shape.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Transform.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Transform.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Transform.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\imgui_custom.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\imgui_custom.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/imgui_custom.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\imgui_plot.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\imgui_plot.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/imgui_plot.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\nanovg_custom.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\nanovg_custom.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/nanovg_custom.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\FontAwesome5.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\FontAwesome5.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/FontAwesome5.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\FontAwesome5Brands.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\FontAwesome5Brands.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/FontAwesome5Brands.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoRegular.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoRegular.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoRegular.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoBold.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoBold.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoBold.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoItalic.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoItalic.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoItalic.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoMonoRegular.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoMonoRegular.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoMonoRegular.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoMonoBold.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoMonoBold.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoMonoBold.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\src\\Mahi\\Gui\\Fonts\\RobotoMonoItalic.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\src\\Mahi\\Gui\\Fonts\\RobotoMonoItalic.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/src/Mahi/Gui/Fonts/RobotoMonoItalic.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\imgui_demo.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\imgui_demo.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/imgui_demo.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\imgui_draw.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\imgui_draw.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/imgui_draw.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\imgui_widgets.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\imgui_widgets.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/imgui_widgets.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\imgui.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\imgui.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/imgui.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\imgui_stdlib.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\imgui_stdlib.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/imgui_stdlib.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\examples\\imgui_impl_glfw.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\examples\\imgui_impl_glfw.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/examples/imgui_impl_glfw.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_GUI -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNANOVG_GLAD -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-gui-src\\include -I_deps\\mahi-gui-src\\3rdparty\\imgui -I_deps\\mahi-gui-src\\3rdparty\\nanosvg\\src -I_deps\\mahi-gui-src\\src -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\3rdparty\\fmt\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\clipper -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /await -std:c++17 /Fo_deps\\mahi-gui-build\\CMakeFiles\\gui.dir\\3rdparty\\imgui\\examples\\imgui_impl_opengl3.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\imgui\\examples\\imgui_impl_opengl3.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/imgui/examples/imgui_impl_opengl3.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\context.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/context.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\init.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\init.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/init.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\input.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\input.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/input.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\monitor.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/monitor.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\vulkan.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/vulkan.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\window.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\window.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/window.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_init.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_init.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_joystick.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_joystick.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_monitor.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_monitor.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_time.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_time.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_thread.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_thread.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\win32_window.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/win32_window.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\wgl_context.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/wgl_context.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\egl_context.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/egl_context.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -D_UNICODE -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glfw\\src -I_deps\\mahi-gui-build\\3rdparty\\glfw\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glfw\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glfw\\src\\osmesa_context.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glfw/src/osmesa_context.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo  -I_deps\\mahi-gui-src\\3rdparty\\glad\\include  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\glad\\CMakeFiles\\glad.dir\\src\\glad.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\glad\\src\\glad.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/glad/src/glad.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\nativefiledialog-extended\\src\\CMakeFiles\\nfd.dir\\nfd_win.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\nativefiledialog-extended\\src\\nfd_win.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/nativefiledialog-extended/src/nfd_win.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -DNANOVG_GLAD -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\nanovg\\CMakeFiles\\nanovg.dir\\src\\nanovg.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\nanovg\\src\\nanovg.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/nanovg/src/nanovg.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -DNANOVG_GLAD -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\nanovg\\CMakeFiles\\nanovg-fbo.dir\\example\\example_fbo.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\nanovg\\example\\example_fbo.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/nanovg/example/example_fbo.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo -DNANOVG_GLAD -I_deps\\mahi-gui-src\\3rdparty\\nanovg\\src -I_deps\\mahi-gui-src\\3rdparty\\glfw\\include -I_deps\\mahi-gui-src\\3rdparty\\glad\\include  /DWIN32 /D_WINDOWS /W3 /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\nanovg\\CMakeFiles\\nanovg-fbo.dir\\example\\perf.c.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\nanovg\\example\\perf.c",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/nanovg/example/perf.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I_deps\\mahi-gui-src\\3rdparty\\clipper  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-gui-build\\3rdparty\\clipper\\CMakeFiles\\clipper.dir\\clipper.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-gui-src\\3rdparty\\clipper\\clipper.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/clipper/clipper.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Console.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Console.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Console.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Device.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Device.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Device.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Random.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Random.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Random.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\System.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\System.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/System.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Types.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Types.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Types.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Coroutine.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Coroutine.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Coroutine.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Lock.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Lock.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Lock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Mutex.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Mutex.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Mutex.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\NamedMutex.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\NamedMutex.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/NamedMutex.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Spinlock.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Spinlock.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Spinlock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\Csv.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\Csv.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Logging/Csv.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\File.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\File.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Logging/File.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\Log.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\Log.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Logging/Log.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\LogUtil.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\LogUtil.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Logging/LogUtil.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Butterworth.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Butterworth.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Butterworth.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Chirp.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Chirp.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Chirp.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Differentiator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Differentiator.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Differentiator.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Filter.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Filter.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Filter.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Functions.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Functions.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Functions.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Integrator.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Integrator.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Integrator.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\TimeFunction.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\TimeFunction.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/TimeFunction.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Waveform.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Waveform.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Math/Waveform.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Clock.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Clock.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Clock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Time.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Time.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Time.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Timer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Timer.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Timer.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Timestamp.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Timestamp.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Timestamp.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -DMAHI_COROUTINES -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DNOMINMAX -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I_deps\\mahi-util-src\\include -I_deps\\mahi-util-src\\3rdparty\\json\\include -I_deps\\mahi-util-src\\3rdparty\\cxxopts\\include -I_deps\\mahi-util-src\\src -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /await /Fo_deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Frequency.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Frequency.cpp",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Frequency.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-util-build\\3rdparty\\fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\3rdparty\\fmt\\src\\format.cc",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/3rdparty/fmt/src/format.cc"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/ControlGUI/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\2019\\COMMUN~1\\VC\\Tools\\MSVC\\1425~1.286\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_LOCALE -I_deps\\mahi-util-src\\3rdparty\\fmt\\include  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /MP /MD /O2 /Ob2 /DNDEBUG   /Fo_deps\\mahi-util-build\\3rdparty\\fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Git\\RobotControl\\Code\\ControlGUI\\build\\_deps\\mahi-util-src\\3rdparty\\fmt\\src\\os.cc",
+  "file": "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src/3rdparty/fmt/src/os.cc"
+}
+]

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4A07883-4116-3E62-8A35-B6CD54782489}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>robo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">robo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mahi-robo-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">robo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mahi-robo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">robo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mahi-robo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">robo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mahi-robo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Sim/cpp -BC:/Git/RobotControl/Sim/cpp/build --check-stamp-file C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\cmake\mahi-robo-config.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Sim/cpp -BC:/Git/RobotControl/Sim/cpp/build --check-stamp-file C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\cmake\mahi-robo-config.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Sim/cpp -BC:/Git/RobotControl/Sim/cpp/build --check-stamp-file C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\cmake\mahi-robo-config.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Sim/cpp -BC:/Git/RobotControl/Sim/cpp/build --check-stamp-file C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-robo-src/CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\cmake\mahi-robo-config.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\Limiter.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\PdController.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Control\PidController.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\AtiSensor.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\CurrentAmplifier.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\DcMotor.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\ForceSensor.cpp" />
+    <ClCompile Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\src\Mahi\Robo\Mechatronics\TorqueSensor.cpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\Limiter.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\PdController.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Control\PidController.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\AtiSensor.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\CurrentAmplifier.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\DcMotor.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\ForceSensor.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Mechatronics\TorqueSensor.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include\Mahi\Robo\Types.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\ZERO_CHECK.vcxproj">
+      <Project>{18911753-C995-382B-9B42-B7A6386A1777}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-build\3rdparty\fmt\fmt.vcxproj">
+      <Project>{B3160169-7F49-3997-B36A-74D0B366966E}</Project>
+      <Name>fmt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-build\util.vcxproj">
+      <Project>{371ED04B-1DFF-3587-90D3-0A9F173C8C87}</Project>
+      <Name>util</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

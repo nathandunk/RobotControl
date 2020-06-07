@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\163408089c78e22fba83b58b3a8cfb69\mahi-util-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\ae82e6eb92923b468f095b3bfd6f6b7f\mahi-util-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\a498e5b1433e0daac2e2394fb5abee20\mahi-util-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-subbuild\CMakeFiles\mahi-util-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13C8F894-DC17-3CE7-BA74-44A0E29AFA10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

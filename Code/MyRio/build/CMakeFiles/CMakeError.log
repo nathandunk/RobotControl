@@ -1,0 +1,89 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crt1.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crti.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtbegin.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lstdc++
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lm
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtend.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtn.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crt1.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crti.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtbegin.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtend.o: No such file or directory
+c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtn.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+
+Performing C++ SOURCE FILE Test FMT_HAS_VARIANT failed with the following output:
+Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_1bad6 
+[1/2] Building CXX object CMakeFiles/cmTC_1bad6.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_1bad6.dir/src.cxx.o 
+C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi    -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -DFMT_HAS_VARIANT -std=c++1z   -std=gnu++11 -o CMakeFiles/cmTC_1bad6.dir/src.cxx.o -c src.cxx
+src.cxx:2:21: fatal error: variant: No such file or directory
+   #include <variant>
+                     ^
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+  #include <variant>
+  int main() {}
+Determining if the strtod_l exist failed with the following output:
+Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_f8be4 
+[1/2] Building C object CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o 
+C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -o CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
+CheckSymbolExists.c: In function 'main':
+CheckSymbolExists.c:9:19: error: 'strtod_l' undeclared (first use in this function)
+   return ((int*)(&strtod_l))[argc];
+                   ^~~~~~~~
+CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+File C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <xlocale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod_l
+  return ((int*)(&strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

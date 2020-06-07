@@ -369,6 +369,12 @@ mahi-util_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi
 //Value Computed by CMake
 mahi-util_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-util-src
 
+//Value Computed by CMake
+nativefiledialog-extended_BINARY_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-build/3rdparty/nativefiledialog-extended
+
+//Value Computed by CMake
+nativefiledialog-extended_SOURCE_DIR:STATIC=C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-src/3rdparty/nativefiledialog-extended
+
 
 ########################
 # INTERNAL cache entries
@@ -494,7 +500,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

@@ -26,17 +26,17 @@ The CXX compiler identification is MSVC, found in "C:/Git/RobotControl/Code/Cont
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_8c5cc 
-[1/2] Building CXX object CMakeFiles\cmTC_8c5cc.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_8c5cc.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_688a4 
+[1/2] Building CXX object CMakeFiles\cmTC_688a4.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_688a4.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_e525e 
-[1/2] Building CXX object CMakeFiles\cmTC_e525e.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_e525e.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_4bd9a 
+[1/2] Building CXX object CMakeFiles\cmTC_4bd9a.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_4bd9a.exe
 
 
 
@@ -44,9 +44,9 @@ Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MIC
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_a246a 
-[1/2] Building CXX object CMakeFiles\cmTC_a246a.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_a246a.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_ad59e 
+[1/2] Building CXX object CMakeFiles\cmTC_ad59e.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_ad59e.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -132,17 +132,17 @@ The C compiler identification is MSVC, found in "C:/Git/RobotControl/Code/Contro
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_88169 
-[1/2] Building C object CMakeFiles\cmTC_88169.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_88169.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_73183 
+[1/2] Building C object CMakeFiles\cmTC_73183.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_73183.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_b8afa 
-[1/2] Building C object CMakeFiles\cmTC_b8afa.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_b8afa.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_1428c 
+[1/2] Building C object CMakeFiles\cmTC_1428c.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_1428c.exe
 
 
 
@@ -150,9 +150,9 @@ Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MIC
 Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_24342 
-[1/2] Building C object CMakeFiles\cmTC_24342.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_24342.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_6521e 
+[1/2] Building C object CMakeFiles\cmTC_6521e.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_6521e.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -160,9 +160,9 @@ Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MIC
 Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_TEMPLATES succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_a5a2f 
-[1/2] Building CXX object CMakeFiles\cmTC_a5a2f.dir\src.cxx.obj
-[2/2] Linking CXX executable cmTC_a5a2f.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_b9a28 
+[1/2] Building CXX object CMakeFiles\cmTC_b9a28.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_b9a28.exe
 
 Source file was:
 
@@ -172,9 +172,9 @@ Source file was:
 Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_b042f 
-[1/2] Building CXX object CMakeFiles\cmTC_b042f.dir\src.cxx.obj
-[2/2] Linking CXX executable cmTC_b042f.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_68fa9 
+[1/2] Building CXX object CMakeFiles\cmTC_68fa9.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_68fa9.exe
 
 Source file was:
 
@@ -183,11 +183,11 @@ Source file was:
 Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_299f4 
-[1/2] Building CXX object CMakeFiles\cmTC_299f4.dir\src.cxx.obj
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_d9693 
+[1/2] Building CXX object CMakeFiles\cmTC_d9693.dir\src.cxx.obj
 cl : Command line warning D9002 : ignoring unknown option '-std=c++1z'
 The contents of <variant> are available only with C++17 or later.
-[2/2] Linking CXX executable cmTC_299f4.exe
+[2/2] Linking CXX executable cmTC_d9693.exe
 
 Source file was:
 
@@ -196,9 +196,9 @@ Source file was:
 Determining if the _strtod_l exist passed with the following output:
 Change Dir: C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_7140d 
-[1/2] Building C object CMakeFiles\cmTC_7140d.dir\CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_7140d.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~3/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_564cb 
+[1/2] Building C object CMakeFiles\cmTC_564cb.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_564cb.exe
 
 File C:/Git/RobotControl/Code/ControlGUI/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

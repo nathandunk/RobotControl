@@ -1,0 +1,277 @@
+[
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -I_deps/mahi-daq-src/include -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -g   -std=gnu++11 -o CMakeFiles\\rio_robot.dir\\rio_robot.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\rio_robot.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/rio_robot.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\Daq.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\Daq.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/Daq.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\Module.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\Module.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/Module.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\Buffer.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\Buffer.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/Buffer.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\Watchdog.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\Watchdog.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/Watchdog.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\Utils.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\Utils.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/Utils.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRio.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRio.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRio.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioConnector.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioConnector.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioConnector.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioAI.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioAI.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioAI.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioAO.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioAO.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioAO.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioDI.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioDI.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioDI.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioDO.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioDO.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioDO.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioEncoder.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioEncoder.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioEncoder.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioLed.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioLed.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioLed.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioUtils.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\MyRioUtils.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/MyRioUtils.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-gcc.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -g   -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\IRQConfigure.c.o   -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\IRQConfigure.c",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/Detail/MyRioFpga60/IRQConfigure.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-gcc.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -g   -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\MyRio.c.o   -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\MyRio.c",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/Detail/MyRioFpga60/MyRio.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-gcc.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -DMAHI_DAQ -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_MYRIO -DMAHI_UTIL -DMyRio_1900 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi -I_deps/mahi-daq-src/include -I_deps/mahi-daq-src/src -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -g   -o _deps\\mahi-daq-build\\CMakeFiles\\daq.dir\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\NiFpga.c.o   -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-daq-src\\src\\Mahi\\Daq\\NI\\MyRio\\Detail\\MyRioFpga60\\NiFpga.c",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/src/Mahi/Daq/NI/MyRio/Detail/MyRioFpga60/NiFpga.c"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Console.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Console.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Console.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Device.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Device.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Device.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Random.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Random.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Random.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\System.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\System.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/System.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Types.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Types.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Types.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Lock.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Lock.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Lock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Mutex.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Mutex.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Mutex.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\NamedMutex.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\NamedMutex.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/NamedMutex.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Concurrency\\Spinlock.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Concurrency\\Spinlock.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Concurrency/Spinlock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\Csv.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\Csv.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Logging/Csv.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\File.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\File.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Logging/File.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\Log.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\Log.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Logging/Log.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Logging\\LogUtil.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Logging\\LogUtil.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Logging/LogUtil.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Butterworth.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Butterworth.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Butterworth.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Chirp.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Chirp.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Chirp.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Differentiator.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Differentiator.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Differentiator.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Filter.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Filter.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Filter.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Functions.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Functions.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Functions.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Integrator.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Integrator.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Integrator.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\TimeFunction.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\TimeFunction.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/TimeFunction.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Math\\Waveform.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Math\\Waveform.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Math/Waveform.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Clock.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Clock.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Clock.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Time.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Time.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Time.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Timer.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Timer.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Timer.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Timestamp.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Timestamp.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Timestamp.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -DMAHI_DEFAULT_LOG -DMAHI_LOG_CAPTURE_FILE -DMAHI_UTIL -DMyRio_1900 -I_deps/mahi-util-src/include -I_deps/mahi-util-src/3rdparty/json/include -I_deps/mahi-util-src/3rdparty/cxxopts/include -I_deps/mahi-util-src/src -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\CMakeFiles\\util.dir\\src\\Mahi\\Util\\Timing\\Frequency.cpp.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\src\\Mahi\\Util\\Timing\\Frequency.cpp",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/src/Mahi/Util/Timing/Frequency.cpp"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi   -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\3rdparty\\fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\3rdparty\\fmt\\src\\format.cc",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/3rdparty/fmt/src/format.cc"
+},
+
+{
+  "directory": "C:/Git/RobotControl/Code/MyRio/build",
+  "command": "C:\\dev\\nilrt-arm\\sysroots\\i686-nilrtsdk-mingw32\\usr\\bin\\arm-nilrt-linux-gnueabi\\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi   -I_deps/mahi-util-src/3rdparty/fmt/include  -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -g   -std=gnu++11 -o _deps\\mahi-util-build\\3rdparty\\fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.o -c C:\\Git\\RobotControl\\Code\\MyRio\\build\\_deps\\mahi-util-src\\3rdparty\\fmt\\src\\os.cc",
+  "file": "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/3rdparty/fmt/src/os.cc"
+}
+]

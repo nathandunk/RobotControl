@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/a498e5b1433e0daac2e2394fb5abee20/mahi-util-populate.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/ae82e6eb92923b468f095b3bfd6f6b7f/mahi-util-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-install.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-download.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-update.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-build.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Sim/cpp/build/_deps/mahi-util-subbuild/CMakeFiles/163408089c78e22fba83b58b3a8cfb69/mahi-util-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mahi-util-populate"
+		],
+		"name" : "mahi-util-populate"
+	}
+}

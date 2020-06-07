@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/CMakeFiles/mahi-util-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-install.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-download.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-update.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-build.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-subbuild/mahi-util-populate-prefix/src/mahi-util-populate-stamp/mahi-util-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mahi-util-populate"
+		],
+		"name" : "mahi-util-populate"
+	}
+}

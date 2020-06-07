@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/CMakeFiles/mahi-gui-populate"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/CMakeFiles/mahi-gui-populate.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/CMakeFiles/mahi-gui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-update.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Git/RobotControl/Code/ControlGUI/build/_deps/mahi-gui-subbuild/mahi-gui-populate-prefix/src/mahi-gui-populate-stamp/mahi-gui-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mahi-gui-populate"
+		],
+		"name" : "mahi-gui-populate"
+	}
+}

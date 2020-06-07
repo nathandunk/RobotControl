@@ -88,10 +88,10 @@ public:
         // ImGui::BeginGroup();
         if(num_joints > 0){
             for (size_t i = 0; i < num_joints; i++){
-                ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-200,200);
+                ImGui::DragFloat(("Angle " + std::to_string(i)).c_str(),&angles[i],0.5,-1000,1000);
             }
             for (size_t i = 0; i < num_joints; i++){
-                ImGui::DragFloat(("Encoder " + std::to_string(i)).c_str(),&encoders[i],0.5,-200,200);
+                ImGui::DragFloat(("Encoder " + std::to_string(i)).c_str(),&encoders[i],0.5,-1000,1000);
             }
         }
         ImGui::InputInt("Comport number:", &comport_num);
@@ -113,8 +113,8 @@ public:
         
         ImGui::Plot("Overhead View Control", oh_plot, oh_grids, ImVec2(ImGui::GetWindowWidth()/2.0f-20.0f,-1.0f));
         if (ImGui::IsPlotHovered() && ImGui::GetIO().MouseClicked[0]){
-            ImVec2 ee_positions = ImGui::PlotMousePos();
-            angles = get_ik_angles(ee_positions);
+            ImVec2 ee_positions = ImGui::GetPlotMousePos();
+            angles = get_ik_angles(ee_positions, encoders);
         }
         oh_grids[2].data = {get_ee_pos(angles)};
         oh_grids[3].data = {get_ee_pos(encoders)};
@@ -135,8 +135,25 @@ public:
         return ImVec2(ee_x,ee_y);
     }
 
-    std::vector<float> get_ik_angles(ImVec2 ee_pos){
-        float theta1 = mahi::util::atan2(ee_pos[1],ee_pos[2])*RAD2DEG;
+    float get_closest_angle(float theta, float theta_d){
+        std::cout << theta << " " << theta_d << std::endl;
+        float theta_new = theta_d;
+        float diff = theta - theta_new;
+        std::cout <<theta_new << std::endl;
+        while (abs(diff) > 180.0){
+            theta_new = theta_new + ((diff > 0) - (diff < 0))*360.0;
+            std::cout << theta_new << std::endl;
+            diff = theta - theta_new;
+        }
+        std::cout << theta_new << std::endl;
+        return theta_new;
+    }
+
+    std::vector<float> get_ik_angles(ImVec2 ee_pos, std::vector<float> encoders){
+        float theta1_d = mahi::util::atan2(ee_pos[1],ee_pos[0])*RAD2DEG;
+        float theta1 = get_closest_angle(encoders[0], theta1_d);
+        std::cout <<theta1 << std::endl;
+
         double length = mahi::util::sqrt(pow(ee_pos[0],2) + pow(ee_pos[1],2));
         float theta2 = (length < 10.0) ? (asin(length/10.0)*RAD2DEG) : 90.0f;
         return {theta1, theta2};
