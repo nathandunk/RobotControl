@@ -1,4 +1,4 @@
-// Link 1
+#pragma once
 
 constexpr double Ic1xx =  0.00031659; // kg*m^2
 constexpr double Ic1xy = -0.00000032; // kg*m^2

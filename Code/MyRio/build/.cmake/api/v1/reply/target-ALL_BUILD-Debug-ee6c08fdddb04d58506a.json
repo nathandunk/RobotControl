@@ -1,0 +1,55 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "daq::@dfe5ba96642e669d2245"
+		},
+		{
+			"id" : "rio_robot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "robot_lib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "util::@9e7e004084100b3727b4"
+		},
+		{
+			"id" : "fmt::@1dc5051ce61772968524"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMake"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

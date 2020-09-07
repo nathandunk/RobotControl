@@ -15,6 +15,9 @@
     <ClInclude Include="C:\Git\RobotControl\Sim\cpp\src\RobotParams.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\src\RobotGui.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Git\RobotControl\Sim\cpp\CMakeLists.txt" />

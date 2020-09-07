@@ -1,6 +1,6 @@
 // MIT License
 //
-// Copyright (c) 2020 Mechatronics and Haptic Interfaces Lab - Rice University
+// Copyright (c) 2020 Nathan Dunkelberger
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -12,8 +12,7 @@
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
 //
-// Author(s): Evan Pezent (epezent@rice.edu)
-
+// Author: Nathan Dunkelberger
 #include <Mahi/Daq.hpp>
 #include <Mahi/Util.hpp>
 
@@ -56,6 +55,7 @@ int main(int argc, char** argv) {
 
     while (!myrio.is_button_pressed()) {
         /// Synced read, reads all DAQ inputs
+        // 0.2 A/V
         myrio.read_all();
         myrio.mspC.AO[0] = 0.5;
         print("encoder[0]: {} = {:+.2f} deg.", myrio.mspC.encoder[0], myrio.mspC.encoder.positions[0]);

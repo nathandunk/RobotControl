@@ -1,89 +1,32 @@
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-g++.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crt1.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crti.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtbegin.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lstdc++
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lm
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtend.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtn.o: No such file or directory
-collect2.exe: error: ld returned 1 exit status
-
-
-Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-gcc.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crt1.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crti.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtbegin.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find -lgcc_s
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtend.o: No such file or directory
-c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/real-ld.exe: cannot find crtn.o: No such file or directory
-collect2.exe: error: ld returned 1 exit status
-
-
-Performing C++ SOURCE FILE Test FMT_HAS_VARIANT failed with the following output:
+Performing C++ SOURCE FILE Test has_std_11_flag failed with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_1bad6 
-[1/2] Building CXX object CMakeFiles/cmTC_1bad6.dir/src.cxx.o
-FAILED: CMakeFiles/cmTC_1bad6.dir/src.cxx.o 
-C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi    -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -Wall -O3 -DLinux -D_GNU_SOURCE=1 -std=c++11 -Wall -O3 -DFMT_HAS_VARIANT -std=c++1z   -std=gnu++11 -o CMakeFiles/cmTC_1bad6.dir/src.cxx.o -c src.cxx
-src.cxx:2:21: fatal error: variant: No such file or directory
-   #include <variant>
-                     ^
-compilation terminated.
-ninja: build stopped: subcommand failed.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_51b8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_11_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51b8e.dir\Debug\\" /Fd"cmTC_51b8e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++11 C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++11' [C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\cmTC_51b8e.vcxproj]
+  cmTC_51b8e.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_51b8e.exe
 
 Source file was:
-
-  #include <variant>
-  int main() {}
-Determining if the strtod_l exist failed with the following output:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_0x_flag failed with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_f8be4 
-[1/2] Building C object CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o 
-C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi  -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0 -IC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi -pthread -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -o CMakeFiles/cmTC_f8be4.dir/CheckSymbolExists.c.o   -c CheckSymbolExists.c
-CheckSymbolExists.c: In function 'main':
-CheckSymbolExists.c:9:19: error: 'strtod_l' undeclared (first use in this function)
-   return ((int*)(&strtod_l))[argc];
-                   ^~~~~~~~
-CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
-ninja: build stopped: subcommand failed.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bffe1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D has_std_0x_flag /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bffe1.dir\Debug\\" /Fd"cmTC_bffe1.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++0x C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\cmTC_bffe1.vcxproj]
+  cmTC_bffe1.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_bffe1.exe
 
-File C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <stdlib.h>
-#include <xlocale.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef strtod_l
-  return ((int*)(&strtod_l))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
+Source file was:
+int main() { return 0; }

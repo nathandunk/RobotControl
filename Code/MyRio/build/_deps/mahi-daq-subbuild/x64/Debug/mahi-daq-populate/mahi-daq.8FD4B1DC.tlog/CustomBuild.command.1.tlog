@@ -1,0 +1,162 @@
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/tmp/mahi-daq-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/tmp/mahi-daq-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-BUILD.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\D020DBBB50283109E98617DA2A45359E\MAHI-DAQ-POPULATE-TEST.RULE
+setlocal
+cd C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\3ABEFA7A0FE65E73C4A9A96AF2C3DA2A\MAHI-DAQ-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/CMakeFiles/Debug/mahi-daq-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/mahi-daq-populate-prefix/src/mahi-daq-populate-stamp/Debug/mahi-daq-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKEFILES\445AEFDEBF7CC03953662C9DF1D89CB9\MAHI-DAQ-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\GIT\ROBOTCONTROL\CODE\MYRIO\BUILD\_DEPS\MAHI-DAQ-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild -BC:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild --check-stamp-file C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

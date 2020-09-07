@@ -1,216 +1,91 @@
-The target system is: Linux -  - ARM
-The host system is: Windows - 10.0.18362 - AMD64
+The system is: Windows - 10.0.18362 - AMD64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-g++.exe 
+Compiler:  
 Build flags: 
-Id flags: -c 
+Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/23/2020 6:48:38 PM.
+Project "C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-The CXX compiler identification is GNU, found in "C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/3.14.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/3.14.1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_8f48c 
-[1/2] Building CXX object CMakeFiles/cmTC_8f48c.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_8f48c
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2a92f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  testCXXCompiler.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2a92f.dir\Debug\\" /Fd"cmTC_2a92f.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_2a92f.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_2a92f.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_e4a63 
-[1/2] Building CXX object CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o
-Using built-in specs.
-COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe
-Target: arm-nilrt-linux-gnueabi
-Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto
-Thread model: posix
-gcc version 6.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/cc1plus.exe -quiet -v -iprefix c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/ -isysroot C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -D_GNU_SOURCE -D_REENTRANT C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o -version -o C:\Users\NATHAN~1\AppData\Local\Temp\ccyqdYAM.s
-GNU C++14 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"
-ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include"
-ignoring nonexistent directory "C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../include"
-ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed"
-ignoring nonexistent directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"
-#include "..." search starts here:
-#include <...> search starts here:
- c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include
- c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include
-End of search list.
-GNU C++14 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 4195568d53a821a59bdd8cdd0ff474af
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/as.exe -v -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o C:\Users\NATHAN~1\AppData\Local\Temp\ccyqdYAM.s
-GNU assembler version 2.28.0 (arm-nilrt-linux-gnueabi) using BFD version (GNU Binutils) 2.28.0.20170307
-COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/
-LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
-[2/2] Linking CXX executable cmTC_e4a63
-Using built-in specs.
-COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe
-COLLECT_LTO_WRAPPER=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/lto-wrapper.exe
-Target: arm-nilrt-linux-gnueabi
-Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto
-Thread model: posix
-gcc version 6.3.0 (GCC) 
-COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/
-LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_e4a63' '-shared-libgcc' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_e4a63 C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0 -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0 -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_e4a63' '-shared-libgcc' '-mtls-dialect=gnu'
-
-
-Parsed CXX implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-    add: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  end of search list found
-  collapse include dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  collapse include dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  implicit include dirs: [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include;C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-nilrt-linux-gnueabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_e4a63 ]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe]
-  ignore line: [Target: arm-nilrt-linux-gnueabi]
-  ignore line: [Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
-  ignore line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/cc1plus.exe -quiet -v -iprefix c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/ -isysroot C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -D_GNU_SOURCE -D_REENTRANT C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o -version -o C:\Users\NATHAN~1\AppData\Local\Temp\ccyqdYAM.s]
-  ignore line: [GNU C++14 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)]
-  ignore line: [	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"]
-  ignore line: [ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include"]
-  ignore line: [ignoring nonexistent directory "C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../include"]
-  ignore line: [ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed"]
-  ignore line: [ignoring nonexistent directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  ignore line: [ c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/arm-nilrt-linux-gnueabi]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include/c++/6.3.0/backward]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C++14 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)]
-  ignore line: [	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 4195568d53a821a59bdd8cdd0ff474af]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
-  ignore line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/as.exe -v -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o C:\Users\NATHAN~1\AppData\Local\Temp\ccyqdYAM.s]
-  ignore line: [GNU assembler version 2.28.0 (arm-nilrt-linux-gnueabi) using BFD version (GNU Binutils) 2.28.0.20170307]
-  ignore line: [COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
-  ignore line: [[2/2] Linking CXX executable cmTC_e4a63]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: arm-nilrt-linux-gnueabi]
-  ignore line: [Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_e4a63' '-shared-libgcc' '-mtls-dialect=gnu']
-  link line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_e4a63 C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0 -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0 -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o]
-    arg [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe] ==> ignore
-    arg [--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux.so.3] ==> ignore
-    arg [-X] ==> ignore
-    arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_e4a63] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o] ==> ignore
-    arg [-Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0] ==> dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0]
-    arg [-Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc] ==> dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-    arg [CMakeFiles/cmTC_e4a63.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lpthread] ==> lib [pthread]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o] ==> ignore
-  collapse library dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0]
-  collapse library dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
-  implicit dirs: [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0;C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-  implicit fwks: []
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_36bfa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36bfa.dir\Debug\\" /Fd"cmTC_36bfa.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_36bfa.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_36bfa.exe
 
 
 
 
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_4bb89 
-[1/2] Building CXX object CMakeFiles/cmTC_4bb89.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_4bb89
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_acb76.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  feature_tests.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_acb76.dir\Debug\\" /Fd"cmTC_acb76.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\feature_tests.cxx
+  cmTC_acb76.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_acb76.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -253,7 +128,6 @@ Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_4bb89
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -270,466 +144,109 @@ Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_4bb89
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_95262 
-[1/2] Building CXX object CMakeFiles/cmTC_95262.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_95262
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_4a967 
-[1/2] Building CXX object CMakeFiles/cmTC_4a967.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_4a967
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_fd8f1 
-[1/2] Building CXX object CMakeFiles/cmTC_fd8f1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_fd8f1
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/arm-nilrt-linux-gnueabi-gcc.exe 
+Compiler:  
 Build flags: 
-Id flags: -c 
+Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/23/2020 6:48:53 PM.
+Project "C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\3.14.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-The C compiler identification is GNU, found in "C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/3.14.1/CompilerIdC/CMakeCCompilerId.o"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/3.14.1/CompilerIdC/CompilerIdC.exe"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_25cf7 
-[1/2] Building C object CMakeFiles/cmTC_25cf7.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_25cf7
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bb80c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  testCCompiler.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb80c.dir\Debug\\" /Fd"cmTC_bb80c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_bb80c.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_bb80c.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_da660 
-[1/2] Building C object CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o
-Using built-in specs.
-COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe
-Target: arm-nilrt-linux-gnueabi
-Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto
-Thread model: posix
-gcc version 6.3.0 (GCC) 
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/cc1.exe -quiet -v -iprefix c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/ -isysroot C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -D_REENTRANT C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o -version -o C:\Users\NATHAN~1\AppData\Local\Temp\ccBzdnYr.s
-GNU C11 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"
-ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include"
-ignoring nonexistent directory "C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../include"
-ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed"
-ignoring nonexistent directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"
-#include "..." search starts here:
-#include <...> search starts here:
- c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include
- c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include
- C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include
-End of search list.
-GNU C11 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)
-	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: c1e165ac2b43c12400912c4acfed730e
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/as.exe -v -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o C:\Users\NATHAN~1\AppData\Local\Temp\ccBzdnYr.s
-GNU assembler version 2.28.0 (arm-nilrt-linux-gnueabi) using BFD version (GNU Binutils) 2.28.0.20170307
-COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/
-LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu'
-[2/2] Linking C executable cmTC_da660
-Using built-in specs.
-COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe
-COLLECT_LTO_WRAPPER=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/lto-wrapper.exe
-Target: arm-nilrt-linux-gnueabi
-Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto
-Thread model: posix
-gcc version 6.3.0 (GCC) 
-COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/
-LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/;c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_da660' '-mtls-dialect=gnu'
- c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_da660 C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0 -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0 -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_da660' '-mtls-dialect=gnu'
-
-
-Parsed C implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-    add: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-    add: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  end of search list found
-  collapse include dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  collapse include dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  collapse include dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  implicit include dirs: [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include;C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-nilrt-linux-gnueabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_da660 ]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe]
-  ignore line: [Target: arm-nilrt-linux-gnueabi]
-  ignore line: [Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu']
-  ignore line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/cc1.exe -quiet -v -iprefix c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/ -isysroot C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi -D_REENTRANT C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=vfpv3 -mfloat-abi=softfp -mcpu=cortex-a9 -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o -version -o C:\Users\NATHAN~1\AppData\Local\Temp\ccBzdnYr.s]
-  ignore line: [GNU C11 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)]
-  ignore line: [	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"]
-  ignore line: [ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include"]
-  ignore line: [ignoring nonexistent directory "C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../include"]
-  ignore line: [ignoring duplicate directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed"]
-  ignore line: [ignoring nonexistent directory "c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/../../../../../i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/../../../../../../../arm-nilrt-linux-gnueabi/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  ignore line: [ c:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/include-fixed]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/gcc/arm-nilrt-linux-gnueabi/6.3.0/include]
-  ignore line: [ C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C11 (GCC) version 6.3.0 (arm-nilrt-linux-gnueabi)]
-  ignore line: [	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none]
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: c1e165ac2b43c12400912c4acfed730e]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu']
-  ignore line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/as.exe -v -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=softfp -mfpu=vfpv3 -meabi=5 -o CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o C:\Users\NATHAN~1\AppData\Local\Temp\ccBzdnYr.s]
-  ignore line: [GNU assembler version 2.28.0 (arm-nilrt-linux-gnueabi) using BFD version (GNU Binutils) 2.28.0.20170307]
-  ignore line: [COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o' '-c' '-mtls-dialect=gnu']
-  ignore line: [[2/2] Linking C executable cmTC_da660]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:\dev\nilrt-arm\sysroots\i686-nilrtsdk-mingw32\usr\bin\arm-nilrt-linux-gnueabi\arm-nilrt-linux-gnueabi-gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/lto-wrapper.exe]
-  ignore line: [Target: arm-nilrt-linux-gnueabi]
-  ignore line: [Configured with: ../../../../../../work-shared/gcc-6.3.0-r0/gcc-6.3.0/configure --build=x86_64-linux --host=i686-nilrtsdk-mingw32 --target=arm-nilrt-linux-gnueabi --prefix=/usr/local/oecore-i686/sysroots --exec_prefix=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr --bindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --sbindir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi --libexecdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/libexec/arm-nilrt-linux-gnueabi --datadir=/usr/local/oecore-i686/sysroots/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/var --libdir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi --includedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-nilrtsdk-mingw32/usr/include --infodir=/usr/local/oecore-i686/sysroots/share/info --mandir=/usr/local/oecore-i686/sysroots/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-nilrt-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/6.3.0 --with-build-time-tools=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot-native/usr/arm-nilrt-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --with-mpc=/mnt/build/jenkins-jobs/nilrt_OE_toolchain-cobra/workspace/build/tmp-glibc/work/i686-nativesdk-mingw32-nilrtsdk-mingw32/gcc-cross-canadian-arm/6.3.0-r0/recipe-sysroot --disable-nls --enable-initfini-array --with-arch=armv7-a --disable-nls --disable-lto]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 6.3.0 (GCC) ]
-  ignore line: [COMPILER_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [LIBRARY_PATH=c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/]
-  ignore line: [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi' '-pthread' '-march=armv7-a' '-mfpu=vfpv3' '-mfloat-abi=softfp' '-mcpu=cortex-a9' '-v' '-o' 'cmTC_da660' '-mtls-dialect=gnu']
-  link line: [ c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe --sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_da660 C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0 -Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0 -LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o]
-    arg [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../libexec/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0/collect2.exe] ==> ignore
-    arg [--sysroot=C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux.so.3] ==> ignore
-    arg [-X] ==> ignore
-    arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_da660] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crt1.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crti.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtbegin.o] ==> ignore
-    arg [-Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0] ==> dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0]
-    arg [-Lc:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc] ==> dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0]
-    arg [-LC:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib] ==> dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-    arg [CMakeFiles/cmTC_da660.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lpthread] ==> lib [pthread]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0/crtend.o] ==> ignore
-    arg [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/crtn.o] ==> ignore
-  collapse library dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0]
-  collapse library dir [c:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/bin/arm-nilrt-linux-gnueabi/../../lib/arm-nilrt-linux-gnueabi/gcc] ==> [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0]
-  collapse library dir [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib] ==> [C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-  implicit libs: [gcc;gcc_s;pthread;c;gcc;gcc_s]
-  implicit dirs: [C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc/arm-nilrt-linux-gnueabi/6.3.0;C:/dev/nilrt-arm/sysroots/i686-nilrtsdk-mingw32/usr/lib/arm-nilrt-linux-gnueabi/gcc;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/lib;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib/arm-nilrt-linux-gnueabi/6.3.0;C:/dev/nilrt-arm/sysroots/cortexa9-vfpv3-nilrt-linux-gnueabi/usr/lib]
-  implicit fwks: []
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_01f43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01f43.dir\Debug\\" /Fd"cmTC_01f43.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+  cmTC_01f43.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_01f43.exe
 
 
 
 
-Detecting C [-std=c11] compiler features compiled with the following output:
+Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_5ad62 
-[1/2] Building C object CMakeFiles/cmTC_5ad62.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_5ad62
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2f06b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  feature_tests.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f06b.dir\Debug\\" /Fd"cmTC_2f06b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\feature_tests.c
+  cmTC_2f06b.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_2f06b.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
     Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_12bf5 
-[1/2] Building C object CMakeFiles/cmTC_12bf5.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_12bf5
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_fd0d4 
-[1/2] Building C object CMakeFiles/cmTC_fd0d4.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_fd0d4
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
-Performing C++ SOURCE FILE Test has_std_11_flag succeeded with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_0e9e0 
-[1/2] Building CXX object CMakeFiles/cmTC_0e9e0.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_0e9e0
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test has_std_0x_flag succeeded with the following output:
-Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_f8e47 
-[1/2] Building CXX object CMakeFiles/cmTC_f8e47.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_f8e47
-
-Source file was:
-int main() { return 0; }
 Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_TEMPLATES succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_979b4 
-[1/2] Building CXX object CMakeFiles/cmTC_979b4.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_979b4
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_70e3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_VARIADIC_TEMPLATES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_70e3e.dir\Debug\\" /Fd"cmTC_70e3e.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\src.cxx
+  cmTC_70e3e.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_70e3e.exe
 
 Source file was:
 
@@ -739,11 +256,64 @@ Source file was:
 Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ProgramData/chocolatey/bin/ninja.exe cmTC_0ed0e 
-[1/2] Building CXX object CMakeFiles/cmTC_0ed0e.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_0ed0e
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2df30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_USER_DEFINED_LITERALS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2df30.dir\Debug\\" /Fd"cmTC_2df30.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\src.cxx
+  cmTC_2df30.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_2df30.exe
 
 Source file was:
 
   void operator"" _udl(long double);
   int main() {}
+Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
+Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_15bbd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D FMT_HAS_VARIANT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15bbd.dir\Debug\\" /Fd"cmTC_15bbd.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++1z C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++1z' [C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\cmTC_15bbd.vcxproj]
+  The contents of <variant> are available only with C++17 or later.
+  cmTC_15bbd.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_15bbd.exe
+
+Source file was:
+
+  #include <variant>
+  int main() {}
+Determining if the _strtod_l exist passed with the following output:
+Change Dir: C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d24d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d24d.dir\Debug\\" /Fd"cmTC_3d24d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_3d24d.vcxproj -> C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d24d.exe
+
+File C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtod_l
+  return ((int*)(&_strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

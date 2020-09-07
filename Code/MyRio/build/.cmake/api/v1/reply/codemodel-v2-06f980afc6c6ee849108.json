@@ -1,0 +1,1292 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/mahi-daq-build",
+					"childIndexes" : 
+					[
+						2,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/mahi-util-src/3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Concurrency",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Concurrency"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Logging"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Math",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Math"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Timing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Timing"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq/Quanser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq/Quanser"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9,
+						10
+					],
+					"name" : "mahi-daq",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "mahi-util",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-ee6c08fdddb04d58506a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-ALL_BUILD-Debug-19aedabbd9a34bb5f5af.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9e7e004084100b3727b4",
+					"jsonFile" : "target-ALL_BUILD-Debug-d6d097eff975e5b82374.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@1dc5051ce61772968524",
+					"jsonFile" : "target-ALL_BUILD-Debug-2225b3261774a1ec0738.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-3804e6accfd808843997.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "daq::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-daq-Debug-a2503b9d60910e66b694.json",
+					"name" : "daq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@1dc5051ce61772968524",
+					"jsonFile" : "target-fmt-Debug-6bf6d2611a2637f119b1.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rio_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rio_robot-Debug-ff92afd6971d9032b446.json",
+					"name" : "rio_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_lib-Debug-7c2e647619e3943ebba6.json",
+					"name" : "robot_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-cec9647b341b967768f9.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "util::@9e7e004084100b3727b4",
+					"jsonFile" : "target-util-Debug-5ba4a468534528edf6d6.json",
+					"name" : "util",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/mahi-daq-build",
+					"childIndexes" : 
+					[
+						2,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/mahi-util-src/3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Concurrency",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Concurrency"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Logging"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Math",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Math"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Timing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Timing"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq/Quanser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq/Quanser"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9,
+						10
+					],
+					"name" : "mahi-daq",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "mahi-util",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-ee6c08fdddb04d58506a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-ALL_BUILD-Release-19aedabbd9a34bb5f5af.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9e7e004084100b3727b4",
+					"jsonFile" : "target-ALL_BUILD-Release-d6d097eff975e5b82374.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@1dc5051ce61772968524",
+					"jsonFile" : "target-ALL_BUILD-Release-2225b3261774a1ec0738.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-3804e6accfd808843997.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "daq::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-daq-Release-d443c653c104b3fac128.json",
+					"name" : "daq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@1dc5051ce61772968524",
+					"jsonFile" : "target-fmt-Release-d6f6bdce5ac8fc3b15c2.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rio_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rio_robot-Release-ba16903ddaa0c3c8bbb2.json",
+					"name" : "rio_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_lib-Release-19115879913f68c1358f.json",
+					"name" : "robot_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Release-3bc01e3e690caf362cef.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "util::@9e7e004084100b3727b4",
+					"jsonFile" : "target-util-Release-4a6a0e47eb09ab06604c.json",
+					"name" : "util",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/mahi-daq-build",
+					"childIndexes" : 
+					[
+						2,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/mahi-util-src/3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Concurrency",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Concurrency"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Logging"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Math",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Math"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Timing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Timing"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq/Quanser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq/Quanser"
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9,
+						10
+					],
+					"name" : "mahi-daq",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "mahi-util",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ee6c08fdddb04d58506a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-19aedabbd9a34bb5f5af.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9e7e004084100b3727b4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d6d097eff975e5b82374.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@1dc5051ce61772968524",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2225b3261774a1ec0738.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-3804e6accfd808843997.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "daq::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-daq-MinSizeRel-e6132072d7b358e6523a.json",
+					"name" : "daq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@1dc5051ce61772968524",
+					"jsonFile" : "target-fmt-MinSizeRel-f4bb8850a6cbf504728b.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rio_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rio_robot-MinSizeRel-555e0277860657b88530.json",
+					"name" : "rio_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_lib-MinSizeRel-1d879cf37d7e5cecc239.json",
+					"name" : "robot_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-MinSizeRel-b4fb81b5ac2d8ced7083.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "util::@9e7e004084100b3727b4",
+					"jsonFile" : "target-util-MinSizeRel-5a5ac828b09c805c366d.json",
+					"name" : "util",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/mahi-daq-build",
+					"childIndexes" : 
+					[
+						2,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src",
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/mahi-util-src/3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Concurrency",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Concurrency"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Logging",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Logging"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Math",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Math"
+				},
+				{
+					"build" : "_deps/mahi-util-build/src/Mahi/Util/Timing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "build/_deps/mahi-util-src/src/Mahi/Util/Timing"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq"
+				},
+				{
+					"build" : "_deps/mahi-daq-build/src/Mahi/Daq/Quanser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/mahi-daq-src/src/Mahi/Daq/Quanser"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ControlGUI",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						9,
+						10
+					],
+					"name" : "mahi-daq",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "mahi-util",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "FMT",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ee6c08fdddb04d58506a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-19aedabbd9a34bb5f5af.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9e7e004084100b3727b4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d6d097eff975e5b82374.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@1dc5051ce61772968524",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2225b3261774a1ec0738.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-3804e6accfd808843997.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "daq::@dfe5ba96642e669d2245",
+					"jsonFile" : "target-daq-RelWithDebInfo-bdb432f28949a47e2dc4.json",
+					"name" : "daq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fmt::@1dc5051ce61772968524",
+					"jsonFile" : "target-fmt-RelWithDebInfo-531d974036023aa7947b.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rio_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rio_robot-RelWithDebInfo-9f3abacd420feaa6f862.json",
+					"name" : "rio_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_lib-RelWithDebInfo-ed77eaaaad951ffbd2b2.json",
+					"name" : "robot_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-RelWithDebInfo-2d552f6ca6c732a3f266.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "util::@9e7e004084100b3727b4",
+					"jsonFile" : "target-util-RelWithDebInfo-2936ef6ebd005ad80659.json",
+					"name" : "util",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Git/RobotControl/Code/MyRio/build",
+		"source" : "C:/Git/RobotControl/Code/MyRio"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

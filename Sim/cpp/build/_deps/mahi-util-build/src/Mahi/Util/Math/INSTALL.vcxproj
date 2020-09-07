@@ -215,7 +215,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-build\ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\ALL_BUILD.vcxproj">
       <Project>{D581F0AC-17E8-393A-8290-858A22B02052}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

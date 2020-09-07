@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-util-subbuild\CMakeFiles\83faa587481dc88c63a4592af4ddda49\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BD4022A3-3773-3841-8CD9-A6EED0297B85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

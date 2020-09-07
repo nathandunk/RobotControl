@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\CMakeFiles\cf2efa064741f683e62ad818939abb05\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DC56B51E-C531-3681-BDAD-DDA9894118ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

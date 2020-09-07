@@ -1,8 +1,10 @@
 #include <RobotModel.hpp>
+#include <RobotGui.hpp>
 #include <Mahi/Util.hpp>
 #include <thread>
 #include <atomic>
 #include <mutex>
+
 
 #define DLL_EXPORT extern "C" __declspec(dllexport)
 
@@ -13,9 +15,11 @@ std::atomic_bool stop_;
 double t;
 double t_last;
 Vector3d Qref(0,0,0);
-Vector3d Kp(0.1,0.1,0.1);
-Vector3d Kd(0.001,0.001,0.001);
+Vector3d Kp(0.01,0.05,0.05);
+Vector3d Kd(0.001,0.003,0.003);
 std::thread sim_thread;
+std::thread gui_thread;
+RobotGui gui;
 
 void sim(){
     Timer sim_loop(1_ms);
@@ -32,13 +36,20 @@ void sim(){
     }
 }
 
+void gui_func(){
+    gui.run();
+}
+
+void open_gui() {
+    auto gui_thread = std::thread(gui_func);
+    gui_thread.detach();
+}
+
 DLL_EXPORT void start(){
-    {
-        std::mutex lock;
-        rob.zero();
-        stop_ = false;
-    }
+    rob.zero();
+    stop_ = false;
     sim_thread = std::thread(sim);
+    open_gui();
 }
 
 DLL_EXPORT void stop(){
@@ -47,6 +58,7 @@ DLL_EXPORT void stop(){
         stop_ = true;
     }
     sim_thread.join();
+    gui_thread.join();
 }
 
 DLL_EXPORT void get_Q(double* Q){

@@ -45,17 +45,38 @@ unset(_expectedTargets)
 add_library(mahi::daq STATIC IMPORTED)
 
 set_target_properties(mahi::daq PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "MAHI_DAQ;MAHI_MYRIO"
+  INTERFACE_COMPILE_DEFINITIONS "MAHI_DAQ;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_QUANSER"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/include"
-  INTERFACE_LINK_LIBRARIES "mahi::util;\$<LINK_ONLY:dl>;\$<LINK_ONLY:rt>"
+  INTERFACE_LINK_LIBRARIES "mahi::util;HIL::HIL;HIL::quanser_runtime;HIL::quanser_common;legacy_stdio_definitions"
 )
 
 # Import target "mahi::daq" for configuration "Debug"
 set_property(TARGET mahi::daq APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(mahi::daq PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build/libmahi-daq-d.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
+  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build/Debug/mahi-daq-d.lib"
+  )
+
+# Import target "mahi::daq" for configuration "Release"
+set_property(TARGET mahi::daq APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(mahi::daq PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build/Release/mahi-daq.lib"
+  )
+
+# Import target "mahi::daq" for configuration "MinSizeRel"
+set_property(TARGET mahi::daq APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
+set_target_properties(mahi::daq PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build/MinSizeRel/mahi-daq.lib"
+  )
+
+# Import target "mahi::daq" for configuration "RelWithDebInfo"
+set_property(TARGET mahi::daq APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(mahi::daq PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-build/RelWithDebInfo/mahi-daq.lib"
   )
 
 # Make sure the targets which have been exported in some other 

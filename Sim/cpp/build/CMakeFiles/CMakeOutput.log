@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/6/2020 2:34:27 PM.
+Build started 6/10/2020 10:38:26 AM.
 Project "C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\3.14.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.06
+Time Elapsed 00:00:00.89
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 6/6/2020 2:34:29 PM.
+Build started 6/10/2020 10:38:27 AM.
 Project "C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\3.14.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.76
+Time Elapsed 00:00:00.74
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,29 +92,29 @@ The CXX compiler identification is MSVC, found in "C:/Git/RobotControl/Sim/cpp/b
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_35781.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d121f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   testCCompiler.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35781.dir\Debug\\" /Fd"cmTC_35781.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\testCCompiler.c
-  cmTC_35781.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_35781.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d121f.dir\Debug\\" /Fd"cmTC_d121f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cmTC_d121f.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_d121f.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ce6b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f40b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   CMakeCCompilerABI.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce6b4.dir\Debug\\" /Fd"cmTC_ce6b4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
-  cmTC_ce6b4.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_ce6b4.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f40b0.dir\Debug\\" /Fd"cmTC_f40b0.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+  cmTC_f40b0.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_f40b0.exe
 
 
 
@@ -122,15 +122,15 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Detecting C [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1403e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d231.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   feature_tests.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1403e.dir\Debug\\" /Fd"cmTC_1403e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\feature_tests.c
-  cmTC_1403e.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_1403e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d231.dir\Debug\\" /Fd"cmTC_3d231.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\feature_tests.c
+  cmTC_3d231.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d231.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -138,29 +138,29 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2b443.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d0bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   testCXXCompiler.cxx
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2b443.dir\Debug\\" /Fd"cmTC_2b443.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  cmTC_2b443.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b443.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d0bf.dir\Debug\\" /Fd"cmTC_3d0bf.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cmTC_3d0bf.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d0bf.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7bb1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6cd2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   CMakeCXXCompilerABI.cpp
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bb1c.dir\Debug\\" /Fd"cmTC_7bb1c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_7bb1c.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bb1c.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6cd2d.dir\Debug\\" /Fd"cmTC_6cd2d.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_6cd2d.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_6cd2d.exe
 
 
 
@@ -168,15 +168,15 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe697.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b55a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   feature_tests.cxx
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fe697.dir\Debug\\" /Fd"cmTC_fe697.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\feature_tests.cxx
-  cmTC_fe697.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_fe697.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b55a5.dir\Debug\\" /Fd"cmTC_b55a5.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\feature_tests.cxx
+  cmTC_b55a5.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_b55a5.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -238,15 +238,15 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_TEMPLATES succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_29f03.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d196.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   src.cxx
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_VARIADIC_TEMPLATES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_29f03.dir\Debug\\" /Fd"cmTC_29f03.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
-  cmTC_29f03.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_29f03.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_VARIADIC_TEMPLATES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3d196.dir\Debug\\" /Fd"cmTC_3d196.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
+  cmTC_3d196.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d196.exe
 
 Source file was:
 
@@ -256,15 +256,15 @@ Source file was:
 Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d7d5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ee930.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   src.cxx
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_USER_DEFINED_LITERALS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d7d5c.dir\Debug\\" /Fd"cmTC_d7d5c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
-  cmTC_d7d5c.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_d7d5c.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D SUPPORTS_USER_DEFINED_LITERALS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee930.dir\Debug\\" /Fd"cmTC_ee930.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
+  cmTC_ee930.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_ee930.exe
 
 Source file was:
 
@@ -273,17 +273,17 @@ Source file was:
 Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ab4ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_51897.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   src.cxx
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D FMT_HAS_VARIANT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ab4ae.dir\Debug\\" /Fd"cmTC_ab4ae.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++1z C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
-cl : command line warning D9002: ignoring unknown option '-std=c++1z' [C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\cmTC_ab4ae.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D FMT_HAS_VARIANT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51897.dir\Debug\\" /Fd"cmTC_51897.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=c++1z C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\src.cxx
+cl : command line warning D9002: ignoring unknown option '-std=c++1z' [C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\cmTC_51897.vcxproj]
   The contents of <variant> are available only with C++17 or later.
-  cmTC_ab4ae.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_ab4ae.exe
+  cmTC_51897.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_51897.exe
 
 Source file was:
 
@@ -292,15 +292,15 @@ Source file was:
 Determining if the _strtod_l exist passed with the following output:
 Change Dir: C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_22525.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_be536.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
 Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.25.28610.4 for x64
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22525.dir\Debug\\" /Fd"cmTC_22525.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_22525.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_22525.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be536.dir\Debug\\" /Fd"cmTC_be536.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_be536.vcxproj -> C:\Git\RobotControl\Sim\cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_be536.exe
 
 File C:/Git/RobotControl/Sim/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */

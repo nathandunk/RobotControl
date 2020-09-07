@@ -52,7 +52,6 @@ void Actuator::set_torque(float torque_){
         if (torque_ < 0){
             torque_ = -1.0 * torque_;
             digitalWrite(dir_pin, HIGH);
-            // printer->print("high ");
         }
         else{
             digitalWrite(dir_pin, LOW);
@@ -62,13 +61,7 @@ void Actuator::set_torque(float torque_){
         float amps_out = torque/motor_kt; // Nm/(Nm/A) = A
         float volts_out = amps_out/v_a_ratio; // A/(V/A) = V
         int pwm_out = int(volts_out/5.0*255.0);
-        // printer->println(pwm_out);
         analogWrite(analog_out_pin, pwm_out);
-    }
-    else{
-        // if(Serial){
-        //     printer->println("Joint is not enabled.");
-        // }
     }
 }
 

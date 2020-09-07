@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -94,21 +94,22 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +117,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>_deps\mahi-robo-build\Debug\mahi-robo-d.lib;_deps\mahi-util-build\Debug\mahi-util-d.lib;_deps\mahi-util-build\3rdparty\fmt\Debug\fmtd.lib;winmm.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\mahi-robo-build\Debug\mahi-robo-d.lib;_deps\mahi-gui-build\Debug\mahi-gui-d.lib;_deps\mahi-util-build\Debug\mahi-util-d.lib;_deps\mahi-util-build\3rdparty\fmt\Debug\fmtd.lib;winmm.lib;Pdh.lib;Version.lib;_deps\mahi-gui-build\3rdparty\glfw\src\Debug\glfw3.lib;_deps\mahi-gui-build\3rdparty\glad\Debug\glad.lib;_deps\mahi-gui-build\3rdparty\nanovg\Debug\nanovg.lib;_deps\mahi-gui-build\3rdparty\clipper\Debug\clipper.lib;_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\Debug\nfd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -131,29 +132,30 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,7 +163,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>_deps\mahi-robo-build\Release\mahi-robo.lib;_deps\mahi-util-build\Release\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\Release\fmt.lib;winmm.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\mahi-robo-build\Release\mahi-robo.lib;_deps\mahi-gui-build\Release\mahi-gui.lib;_deps\mahi-util-build\Release\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\Release\fmt.lib;winmm.lib;Pdh.lib;Version.lib;_deps\mahi-gui-build\3rdparty\glfw\src\Release\glfw3.lib;_deps\mahi-gui-build\3rdparty\glad\Release\glad.lib;_deps\mahi-gui-build\3rdparty\nanovg\Release\nanovg.lib;_deps\mahi-gui-build\3rdparty\clipper\Release\clipper.lib;_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\Release\nfd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -176,29 +178,30 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,7 +209,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>_deps\mahi-robo-build\MinSizeRel\mahi-robo.lib;_deps\mahi-util-build\MinSizeRel\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\MinSizeRel\fmt.lib;winmm.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\mahi-robo-build\MinSizeRel\mahi-robo.lib;_deps\mahi-gui-build\MinSizeRel\mahi-gui.lib;_deps\mahi-util-build\MinSizeRel\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\MinSizeRel\fmt.lib;winmm.lib;Pdh.lib;Version.lib;_deps\mahi-gui-build\3rdparty\glfw\src\MinSizeRel\glfw3.lib;_deps\mahi-gui-build\3rdparty\glad\MinSizeRel\glad.lib;_deps\mahi-gui-build\3rdparty\nanovg\MinSizeRel\nanovg.lib;_deps\mahi-gui-build\3rdparty\clipper\MinSizeRel\clipper.lib;_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\MinSizeRel\nfd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -221,28 +224,29 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;MAHI_ROBO;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS;MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;FMT_LOCALE;MAHI_GUI;IMGUI_IMPL_OPENGL_LOADER_GLAD;NANOVG_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Git\RobotControl\Sim\cpp\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-robo-src\3rdparty\Eigen3\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\json\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\cxxopts\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-src\3rdparty\fmt\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\imgui;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\implot;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanosvg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glfw\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\glad\include;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nanovg\src;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\clipper;C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-src\3rdparty\nativefiledialog-extended\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,7 +254,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>_deps\mahi-robo-build\RelWithDebInfo\mahi-robo.lib;_deps\mahi-util-build\RelWithDebInfo\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\RelWithDebInfo\fmt.lib;winmm.lib;Pdh.lib;Version.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\mahi-robo-build\RelWithDebInfo\mahi-robo.lib;_deps\mahi-gui-build\RelWithDebInfo\mahi-gui.lib;_deps\mahi-util-build\RelWithDebInfo\mahi-util.lib;_deps\mahi-util-build\3rdparty\fmt\RelWithDebInfo\fmt.lib;winmm.lib;Pdh.lib;Version.lib;_deps\mahi-gui-build\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;_deps\mahi-gui-build\3rdparty\glad\RelWithDebInfo\glad.lib;_deps\mahi-gui-build\3rdparty\nanovg\RelWithDebInfo\nanovg.lib;_deps\mahi-gui-build\3rdparty\clipper\RelWithDebInfo\clipper.lib;_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\RelWithDebInfo\nfd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -324,6 +328,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Git\RobotControl\Sim\cpp\src\RobotModel.cpp" />
     <ClInclude Include="C:\Git\RobotControl\Sim\cpp\src\RobotModel.hpp" />
     <ClInclude Include="C:\Git\RobotControl\Sim\cpp\src\RobotParams.hpp" />
+    <ClInclude Include="C:\Git\RobotControl\Sim\cpp\src\RobotGui.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\ZERO_CHECK.vcxproj">
@@ -332,9 +337,45 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\clipper\clipper.vcxproj">
+      <Project>{66251A7C-D3A6-361B-8415-F5A0872A35C7}</Project>
+      <Name>clipper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-build\3rdparty\fmt\fmt.vcxproj">
       <Project>{B3160169-7F49-3997-B36A-74D0B366966E}</Project>
       <Name>fmt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\glad\glad.vcxproj">
+      <Project>{623ACA5E-99F1-377D-8BCE-CD3D6803F987}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{E29784EC-519B-323A-A1B2-9D546AC9AF39}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\gui.vcxproj">
+      <Project>{3048B3EA-12AE-3B2A-8A8E-117FD639B64F}</Project>
+      <Name>gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\nanovg\nanovg.vcxproj">
+      <Project>{4A71EBC9-ED4F-3D27-A51F-CBED0B034EE6}</Project>
+      <Name>nanovg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\nfd.vcxproj">
+      <Project>{7C2176A1-5522-382E-8DED-E232DE1BA4C7}</Project>
+      <Name>nfd</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

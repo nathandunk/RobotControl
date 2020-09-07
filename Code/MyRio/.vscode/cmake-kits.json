@@ -1,6 +1,0 @@
-[
-    {
-        "name": "nilrt-arm",
-        "toolchainFile": "${workspaceRoot}/cmake/nilrt-arm-toolchain.cmake"
-    }
-]

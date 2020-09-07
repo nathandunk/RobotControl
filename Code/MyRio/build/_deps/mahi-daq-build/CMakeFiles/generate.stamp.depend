@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Git/RobotControl/Code/MyRio/build/CMakeFiles/3.14.1/CMakeCCompiler.cmake
+C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/CMakeLists.txt
+C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/cmake/FindHIL.cmake
+C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/cmake/FindNIDAQmx.cmake
+C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/cmake/FindSensoray826.cmake
+C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-daq-src/cmake/mahi-daq-config.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake

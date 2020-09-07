@@ -45,6 +45,7 @@ unset(_expectedTargets)
 add_library(mahi::fmt STATIC IMPORTED)
 
 set_target_properties(mahi::fmt PROPERTIES
+  INTERFACE_COMPILE_DEFINITIONS "FMT_LOCALE"
   INTERFACE_COMPILE_FEATURES "cxx_variadic_templates"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/3rdparty/fmt/include"
 )
@@ -53,24 +54,67 @@ set_target_properties(mahi::fmt PROPERTIES
 add_library(mahi::util STATIC IMPORTED)
 
 set_target_properties(mahi::util PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "MAHI_UTIL;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE"
+  INTERFACE_COMPILE_DEFINITIONS "MAHI_UTIL;MAHI_COROUTINES;MAHI_DEFAULT_LOG;MAHI_LOG_CAPTURE_FILE;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_WINSOCK_DEPRECATED_NO_WARNINGS"
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
+  INTERFACE_COMPILE_OPTIONS "/await"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/include;C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/3rdparty/json/include;C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-src/3rdparty/cxxopts/include"
-  INTERFACE_LINK_LIBRARIES "mahi::fmt;pthread;rt;\$<LINK_ONLY:dl>;\$<LINK_ONLY:rt>"
+  INTERFACE_LINK_LIBRARIES "mahi::fmt;winmm;Pdh;Version"
 )
 
 # Import target "mahi::fmt" for configuration "Debug"
 set_property(TARGET mahi::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(mahi::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/3rdparty/fmt/libfmtd.a"
+  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/3rdparty/fmt/Debug/fmtd.lib"
   )
 
 # Import target "mahi::util" for configuration "Debug"
 set_property(TARGET mahi::util APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(mahi::util PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/libmahi-util-d.a"
+  IMPORTED_LOCATION_DEBUG "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/Debug/mahi-util-d.lib"
+  )
+
+# Import target "mahi::fmt" for configuration "Release"
+set_property(TARGET mahi::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(mahi::fmt PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/3rdparty/fmt/Release/fmt.lib"
+  )
+
+# Import target "mahi::util" for configuration "Release"
+set_property(TARGET mahi::util APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(mahi::util PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
+  IMPORTED_LOCATION_RELEASE "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/Release/mahi-util.lib"
+  )
+
+# Import target "mahi::fmt" for configuration "MinSizeRel"
+set_property(TARGET mahi::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
+set_target_properties(mahi::fmt PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/3rdparty/fmt/MinSizeRel/fmt.lib"
+  )
+
+# Import target "mahi::util" for configuration "MinSizeRel"
+set_property(TARGET mahi::util APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
+set_target_properties(mahi::util PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/MinSizeRel/mahi-util.lib"
+  )
+
+# Import target "mahi::fmt" for configuration "RelWithDebInfo"
+set_property(TARGET mahi::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(mahi::fmt PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/3rdparty/fmt/RelWithDebInfo/fmt.lib"
+  )
+
+# Import target "mahi::util" for configuration "RelWithDebInfo"
+set_property(TARGET mahi::util APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
+set_target_properties(mahi::util PROPERTIES
+  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Git/RobotControl/Code/MyRio/build/_deps/mahi-util-build/RelWithDebInfo/mahi-util.lib"
   )
 
 # This file does not depend on other imported targets which have

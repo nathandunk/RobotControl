@@ -169,9 +169,51 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\clipper\clipper.vcxproj">
+      <Project>{66251A7C-D3A6-361B-8415-F5A0872A35C7}</Project>
+      <Name>clipper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-util-build\3rdparty\fmt\fmt.vcxproj">
       <Project>{B3160169-7F49-3997-B36A-74D0B366966E}</Project>
       <Name>fmt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\glad\glad.vcxproj">
+      <Project>{623ACA5E-99F1-377D-8BCE-CD3D6803F987}</Project>
+      <Name>glad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{E29784EC-519B-323A-A1B2-9D546AC9AF39}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\gui.vcxproj">
+      <Project>{3048B3EA-12AE-3B2A-8A8E-117FD639B64F}</Project>
+      <Name>gui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\gui_test.vcxproj">
+      <Project>{81C0BB83-2596-3141-96E7-E8E8F14D96AD}</Project>
+      <Name>gui_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\nanovg\nanovg.vcxproj">
+      <Project>{4A71EBC9-ED4F-3D27-A51F-CBED0B034EE6}</Project>
+      <Name>nanovg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Git\RobotControl\Sim\cpp\build\_deps\mahi-gui-build\3rdparty\nativefiledialog-extended\src\nfd.vcxproj">
+      <Project>{7C2176A1-5522-382E-8DED-E232DE1BA4C7}</Project>
+      <Name>nfd</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\d020dbbb50283109e98617da2a45359e\mahi-daq-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\3abefa7a0fe65e73c4a9a96af2c3da2a\mahi-daq-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\445aefdebf7cc03953662c9df1d89cb9\mahi-daq-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Git\RobotControl\Code\MyRio\build\_deps\mahi-daq-subbuild\CMakeFiles\mahi-daq-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4A3911BC-BC83-3A4F-8768-6B6D846D9F67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

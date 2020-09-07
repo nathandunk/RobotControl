@@ -52,8 +52,8 @@ Pc = {Pc1 Pc2 Pc3};
 Ic = {Ic1 Ic2 Ic3};
 g0 = [0; 0; -g];
 u_ref = [0,0,0].';
-% MVG = dynamics_newtonian(m,Pc,Ic,T_array,Qd,Qdd,g0);
-MVG = dynamics_lagrangian(m,Pc,Ic,T_array,Q,Qd,Qdd,g0,0);
+MVG = dynamics_newtonian(m,Pc,Ic,T_array,Qd,Qdd,g0);
+% MVG = dynamics_lagrangian(m,Pc,Ic,T_array,Q,Qd,Qdd,g0,0);
 
 MVG = simplify(expand(MVG));
 
@@ -85,7 +85,6 @@ Ic2yy =  0.00003470; % kg*m^2
 Ic2yz =  0.00000000; % kg*m^2
 Ic2zz =  0.00002156; % kg*m^2
 Pc2x  =  0.06332032; % m
-% Pc2y  =  0.00000; % m
 Pc2y  =  0.00001183; % m
 Pc2z  = -0.01300296; % m
 m2     = 0.02350003; % kg
@@ -104,8 +103,9 @@ l1    =  0.08800000; % m
 l2    =  0.09300000; % m
 g     =  9.80665000; % kg*m/s^2
 
-q   = [0, pi, 0];
-qd  = [0, 0, 0];
+q   = [0.2, .1, -.3];
+qd  = [0.34, -.02, 0.04];
+qdd  = [0.02, 0.04, -0.06];
 tau = [0, 0, 0].';
 
 M_eval = subs(M);
@@ -122,7 +122,13 @@ vpa(a\b)
 
 %% Test with ODE45
 
-x0 = [0,pi,0,0,0,0].';
-tspan = [0,5];
-[t,xsol] = ode45(@eom,tspan,x0);
-plot(t,xsol(:,1:3));
+% x0 = [0,pi,0,0,0,0].';
+% tspan = [0,5];
+% [t,xsol] = ode45(@eom,tspan,x0);
+% plot(t,xsol(:,1:3));
+
+%% Test from python
+Tau3py = -1.0*Ic3xz*(1.0*q3d*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) + (-1.0*q1d*q2d*sin(q2) + 1.0*q1dd*cos(q2))*cos(q3) + (-1.0*q1d*q2d*cos(q2) - 1.0*q1dd*sin(q2))*sin(q3)) - 1.0*Ic3yz*(-1.0*q3d*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)) - (-1.0*q1d*q2d*sin(q2) + 1.0*q1dd*cos(q2))*sin(q3) + (-1.0*q1d*q2d*cos(q2) - 1.0*q1dd*sin(q2))*cos(q3)) + 1.0*Ic3zz*(1.0*q2dd + 1.0*q3dd) + 1.0*Pc3x*m3*(Pc3x*(1.0*q2dd + 1.0*q3dd) - Pc3z*(1.0*q3d*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) + (-1.0*q1d*q2d*sin(q2) + 1.0*q1dd*cos(q2))*cos(q3) + (-1.0*q1d*q2d*cos(q2) - 1.0*q1dd*sin(q2))*sin(q3)) + (1.0*q2d + 1.0*q3d)*(-Pc3y*(1.0*q2d + 1.0*q3d) + Pc3z*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2))) - (-Pc3x*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) + Pc3y*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)))*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)) + (-g*sin(q2) - 1.0*l1*q1d^2*sin(q2)*cos(q2) + 1.0*l1*q2dd)*cos(q3) - (g*cos(q2) - 1.0*l1*q1d^2*sin(q2)^2 - 1.0*l1*q2d^2)*sin(q3)) - 1.0*Pc3y*m3*(-Pc3y*(1.0*q2dd + 1.0*q3dd) + Pc3z*(-1.0*q3d*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)) - (-1.0*q1d*q2d*sin(q2) + 1.0*q1dd*cos(q2))*sin(q3) + (-1.0*q1d*q2d*cos(q2) - 1.0*q1dd*sin(q2))*cos(q3)) - (1.0*q2d + 1.0*q3d)*(Pc3x*(1.0*q2d + 1.0*q3d) - Pc3z*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3))) + (-Pc3x*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) + Pc3y*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)))*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) + (-g*sin(q2) - 1.0*l1*q1d^2*sin(q2)*cos(q2) + 1.0*l1*q2dd)*sin(q3) + (g*cos(q2) - 1.0*l1*q1d^2*sin(q2)^2 - 1.0*l1*q2d^2)*cos(q3)) + 1.0*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3))*(-Ic3xy*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)) + Ic3yy*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) - Ic3yz*(1.0*q2d + 1.0*q3d)) - 1.0*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2))*(Ic3xx*(-1.0*q1d*sin(q2)*sin(q3) + 1.0*q1d*cos(q2)*cos(q3)) - Ic3xy*(-1.0*q1d*sin(q2)*cos(q3) - 1.0*q1d*sin(q3)*cos(q2)) - Ic3xz*(1.0*q2d + 1.0*q3d));
+vpa(subs(Tau3py,[Q.',Qd.',Qdd.'],[q,qd,qdd]),4)
+MVG_subs = subs(MVG)
+vpa(subs(MVG_subs(3),[Q.',Qd.',Qdd.'],[q,qd,qdd]),4)
